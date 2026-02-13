@@ -1,0 +1,699 @@
+{
+  "updated": "2026-02-13T01:20:23.372603",
+  "scholar_id": "_ME8VaYAAAAJ",
+  "stats": {
+    "total_citations": 3132,
+    "h_index": 19,
+    "i10_index": 30
+  },
+  "publications": [
+    {
+      "title": "Beyond Sight: Neuromorphic Synapses Triggered by Invisible Light",
+      "authors": "J Park, K Kim, EK Lee, YJ Kim, H Yoo",
+      "venue": "Small, e10540, 2026",
+      "citations": null,
+      "year": 2026,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:cFHS6HbyZ2cC"
+    },
+    {
+      "title": "Highly aligned polymer nanowire-based fin architecture for enhanced functionality of organic electrochemical transistors in neuromorphic computing",
+      "authors": "Y Kim, W Jeong, EK Lee, J Lee",
+      "venue": "Journal of Materials Chemistry C, 2026",
+      "citations": null,
+      "year": 2026,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:4OULZ7Gr8RgC"
+    },
+    {
+      "title": "Zwitterionic Fluoropolymer‐Engineered Synaptic Clefts Enhance Ion Dynamics in Neuromorphic OECTs",
+      "authors": "JS Kim, YJ Kwon, JH Song, YA Im, DJ Han, HJ Jung, KY Cho, EK Lee",
+      "venue": "Advanced Materials Technologies 11 (2), e01662, 2026",
+      "citations": 1,
+      "year": 2026,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:rO6llkc54NcC"
+    },
+    {
+      "title": "Over 1011-fold variability for a base-12 PUF using particle-damaged graphene",
+      "authors": "DH Lee, Y Han, G Woo, RH Koo, H Shin, J Cho, EK Lee, W Shin, T Kim, ...",
+      "venue": "Device 3 (12), 2025",
+      "citations": null,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:3s1wT3WcHBgC"
+    },
+    {
+      "title": "Advances in Organic In‐Sensor Neuromorphic Computing: from Material Mechanisms to Applications",
+      "authors": "DH Lee, W Kim, EK Lee, H Yoo",
+      "venue": "Advanced Intelligent Discovery 1 (3), e202500053, 2025",
+      "citations": 3,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:ZHo1McVdvXMC"
+    },
+    {
+      "title": "Enhanced Photocurrent of Electrodeposited Copper Oxide Films Doped with Solution-Processable Organic Cationic Dye as a Dopant: H. Lee et al.",
+      "authors": "HW Lee, J Lee, EK Lee",
+      "venue": "Korean Journal of Chemical Engineering 42 (13), 3285-3291, 2025",
+      "citations": null,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:GnPB-g6toBAC"
+    },
+    {
+      "title": "Heterojunction‐Driven Stochasticity: Bi‐Heterojunction Noise‐Enhanced Negative Transconductance Transistor in Image Generation (Adv. Mater. 41/2025)",
+      "authors": "Y Han, RH Koo, J Song, CH Kim, EK Lee, W Shin, H Yoo",
+      "venue": "Advanced Materials 37 (41), e70827, 2025",
+      "citations": null,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:u_35RYKgDlwC"
+    },
+    {
+      "title": "Detachable and Reusable: Reinforced π‐Ion Film for Modular Synaptic Reservoir Computing (Adv. Mater. 41/2025)",
+      "authors": "GW Woo, CM Lee, WW Lee, MJ Jung, SM Lee, HW Lee, H Yoo, YH Kim, ...",
+      "venue": "Advanced Materials 37 (41), e70826, 2025",
+      "citations": null,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:zA6iFVUQeVQC"
+    },
+    {
+      "title": "Detachable and Reusable: Reinforced π‐Ion Film for Modular Synaptic Reservoir Computing",
+      "authors": "GW Woo, CM Lee, WW Lee, MJ Jung, SM Lee, HW Lee, H Yoo, YH Kim, ...",
+      "venue": "Advanced Materials 37 (41), 2506729, 2025",
+      "citations": 3,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:M05iB0D1s5AC"
+    },
+    {
+      "title": "Tailored phase separation in P3HT: PS blends for enhanced synaptic performance in organic electrochemical transistors",
+      "authors": "SH Chung, JH Song, WW Lee, H Yoo, HR Lim, EK Lee",
+      "venue": "Synthetic Metals, 117919, 2025",
+      "citations": 3,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:SeFeTyx0c_EC"
+    },
+    {
+      "title": "Heterojunction‐Driven Stochasticity: Bi‐Heterojunction Noise‐Enhanced Negative Transconductance Transistor in Image Generation",
+      "authors": "Y Han, RH Koo, J Song, CH Kim, EK Lee, W Shin, H Yoo",
+      "venue": "Advanced Materials, 2505150, 2025",
+      "citations": 6,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:ldfaerwXgEUC"
+    },
+    {
+      "title": "Visible-Light-Responsive Organic Synaptic Devices Based on Rhodamine B-Doped Source-Gated Transistors",
+      "authors": "Y Kim, CM Lee, EK Lee",
+      "venue": "ACS Applied Materials & Interfaces, 2025",
+      "citations": 1,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:2P1L_qKh6hAC"
+    },
+    {
+      "title": "Preparation of polyurethane sulfonate films as a motion sensing substrate with the compliant coating of PEDOT: PSS",
+      "authors": "SM Park, SM Lee, YJ Kwon, KY Cho, S Kim, EK Lee",
+      "venue": "Macromolecular Research, 1-6, 2025",
+      "citations": null,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:35N4QoGY0k4C"
+    },
+    {
+      "title": "A Self-powered Kinetic Motion Sensor Fabricated from Electrospun MOF-5/PVDF-TrFE Composites Piezoelectric Nanogenerators",
+      "authors": "MS Park, MJ Kim, JY Jeong, DY Han, S Kim, GT Hwang, H Yoo, EK Lee",
+      "venue": "Macromolecular Research 33 (4), 451-461, 2025",
+      "citations": 4,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:maZDTaKrznsC"
+    },
+    {
+      "title": "Enhancement of Synaptic Behavior in Organic Electrochemical Transistors via the Introduction of Layer‐by‐Layer Grown Metal‐Organic Framework",
+      "authors": "SM Park, Y Won, JH Oh, EK Lee",
+      "venue": "Advanced Materials Technologies 10 (6), 2401316, 2025",
+      "citations": 9,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:NaGl4SEjCO4C"
+    },
+    {
+      "title": "High‐Performance Synaptic Devices Based on Cross‐linked Organic Electrochemical Transistors with Dual Ion Gel",
+      "authors": "CM Lee, Y Kim, W Kim, E Lee, EK Lee",
+      "venue": "Advanced Functional Materials 35 (12), 2417539, 2025",
+      "citations": 17,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:RGFaLdJalmkC"
+    },
+    {
+      "title": "Kinetic swelling-driven PTG interlayers for enhanced crystallinity and charge transport in polymer OECTs",
+      "authors": "JH Song, Y Kim, H Yoo, EK Lee",
+      "venue": "Journal of Materials Chemistry C 13 (34), 17801-17812, 2025",
+      "citations": null,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:HoB7MX3m0LUC"
+    },
+    {
+      "title": "Improved neuromorphic functionality in organic electrochemical transistors using crosslinked-polyvinyl alcohol for fast ion transport and its application to Pavlovian transistors",
+      "authors": "SH Song, JH Song, J Park, H Yoo, EK Lee",
+      "venue": "Journal of Materials Chemistry C 13 (32), 16657-16666, 2025",
+      "citations": null,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:pqnbT2bcN3wC"
+    },
+    {
+      "title": "Highly Efficient n‐Type Doped Single‐Crystalline Perylene Diimide Microwires via Solution Processing for High‐Performance Photosensors and Photo …",
+      "authors": "Y Kim, HW Lee, MJ Jung, S Lee, JH Oh, EK Lee",
+      "venue": "Advanced Materials Technologies, e00681, 2025",
+      "citations": 1,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:70eg2SAEIzsC"
+    },
+    {
+      "title": "Fabrication of High-performance Organic Internal Gated Transistor Using Screen Printing Technique",
+      "authors": "GW Woo, EK Lee",
+      "venue": "Applied Chemistry for Engineering 36 (1), 36-42, 2025",
+      "citations": null,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:vV6vV6tmYwMC"
+    },
+    {
+      "title": "Ultraviolet Photodetector Fabrication with Low‐Power Dissipation Based on Organic Suboptimal Source‐Gated Transistor Architecture and MoO3‐Doped Pentacene",
+      "authors": "MJ Jung, Y Kim, KJ Baeg, EK Lee",
+      "venue": "Small 21 (2), 2408772, 2025",
+      "citations": 3,
+      "year": 2025,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:J_g5lzvAfSwC"
+    },
+    {
+      "title": "Organic Electrochemical Transistors with Microporous Structures via Phase‐Separation for Enhancing Long‐Term Plasticity in Artificial Synapses",
+      "authors": "HS Yang, W Kim, H Yoo, EK Lee",
+      "venue": "Advanced Materials Technologies 9 (24), 2400478, 2024",
+      "citations": 8,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:hMod-77fHWUC"
+    },
+    {
+      "title": "Hybrid amphiphilic janus PDMS sponge enabling electrical sensing of organic solvents",
+      "authors": "MJ Oh, JH Oh, EK Lee",
+      "venue": "Sensors and Actuators A: Physical 378, 115783, 2024",
+      "citations": 3,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:YFjsv_pBGBYC"
+    },
+    {
+      "title": "Controlling Long-Term Plasticity in Neuromorphic Computing Through Modulation of Ferroelectric Polarization",
+      "authors": "D Lee, J Sung, M Kim, NH Kim, S Lee, HY Lee, EK Lee, D Jeong, E Lee",
+      "venue": "ACS Applied Materials & Interfaces 16 (43), 58940-58951, 2024",
+      "citations": 8,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:O3NaXMp0MMsC"
+    },
+    {
+      "title": "Enhancing Stability of n-Type Doped Organic Semiconductors through Low Boiling Point Solvent-Assisted Room Temperature Drying",
+      "authors": "DE Lee, JH Oh, EK Lee",
+      "venue": "ACS Applied Materials & Interfaces 16 (38), 51221-51228, 2024",
+      "citations": null,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:BqipwSGYUEgC"
+    },
+    {
+      "title": "n-Type Doping Effect of Anthracene-Based Cationic Dyes in Organic Electronics",
+      "authors": "Y Kim, M Jung, R Kumar, JM Choi, EK Lee, J Lee",
+      "venue": "ACS Applied Materials & Interfaces 16 (33), 43774-43785, 2024",
+      "citations": 6,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:NMxIlDl6LWMC"
+    },
+    {
+      "title": "Enhanced synaptic behavior of neuromorphic device based on organic electrochemical transistors by adding Aminosilane",
+      "authors": "DH Kim, J Lee, Y Kim, H Yoo, EK Lee",
+      "venue": "Organic Electronics 131, 107076, 2024",
+      "citations": 15,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:M3NEmzRMIkIC"
+    },
+    {
+      "title": "PEDOT: PSS‐Based Prolonged Long‐Term Decay Synaptic OECT with Proton‐Permeable Material, Nafion",
+      "authors": "YJ Lee, YH Kim, EK Lee",
+      "venue": "Macromolecular Rapid Communications, 2400165, 2024",
+      "citations": 13,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:JV2RwH3_ST0C"
+    },
+    {
+      "title": "Strengthening Multi‐Factor Authentication Through Physically Unclonable Functions in PVDF‐HFP‐Phase‐Dependent a‐IGZO Thin‐Film Transistors",
+      "authors": "Y Han, S Lee, EK Lee, H Yoo, BC Jang",
+      "venue": "Advanced Science 11 (18), 2309221, 2024",
+      "citations": 16,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:k_IJM867U9cC"
+    },
+    {
+      "title": "Overcoming downscaling limitations in organic semiconductors: Strategies and Progress",
+      "authors": "T Park, M Kim, EK Lee, J Hur, H Yoo",
+      "venue": "Small 20 (9), 2306468, 2024",
+      "citations": 42,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:iH-uZ7U-co4C"
+    },
+    {
+      "title": "A flexible transparent graphene/metal–organic framework complex hybrid chemical sensor for highly sensitive ethanol detection",
+      "authors": "YH Kim, CH Choi, HW Song, EK Lee, DP Kim, JH Oh",
+      "venue": "EcoMat 6 (2), e12433, 2024",
+      "citations": 19,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:TFP_iSt0sucC"
+    },
+    {
+      "title": "Light-Triggerable and Gate-Tunable Negative Differential Resistance in Small Molecules Heterojunction",
+      "authors": "S Kim, Y Jeon, EK Lee, YJ Kim, CH Kim, H Yoo",
+      "venue": "Nano Letters 24 (6), 2025-2032, 2024",
+      "citations": 1,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:isC4tDSrTZIC"
+    },
+    {
+      "title": "Fabrication of a Moldable, Long-Term Stable, High-Performance Conductive Hydrogel Composed of Biocompatible Materials",
+      "authors": "SY Lee, H Yoo, EK Lee",
+      "venue": "Applied Chemistry for Engineering 35 (5), 390-398, 2024",
+      "citations": null,
+      "year": 2024,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:ns9cj8rnVeAC"
+    },
+    {
+      "title": "Hardware-based security devices using a physical unclonable function created by the irregular grain boundaries found in perovskite calcium titanate",
+      "authors": "S Lee, EK Lee, BC Jang, H Yoo",
+      "venue": "Journal of Alloys and Compounds 969, 172329, 2023",
+      "citations": 5,
+      "year": 2023,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:bEWYMUwI8FkC"
+    },
+    {
+      "title": "Interconnection technologies for flexible electronics: Materials, fabrications, and applications",
+      "authors": "RK Baruah, H Yoo, EK Lee",
+      "venue": "Micromachines 14 (6), 1131, 2023",
+      "citations": 50,
+      "year": 2023,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:r0BpntZqJG4C"
+    },
+    {
+      "title": "New opportunities for organic semiconducting polymers in biomedical applications",
+      "authors": "K Kim, H Yoo, EK Lee",
+      "venue": "Polymers 14 (14), 2960, 2022",
+      "citations": 41,
+      "year": 2022,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:j3f4tGmQtD8C"
+    },
+    {
+      "title": "Blended Polymer Dry Electrodes for Reliable Electrocardiogram and Electromyogram Measurements and Their Eco-Friendly Disposal Led by Degradability in Hot Water",
+      "authors": "DH Lee, EK Lee, CH Kim, HJ Yun, YJ Kim, H Yoo",
+      "venue": "Polymers 14 (13), 2586, 2022",
+      "citations": 9,
+      "year": 2022,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:4JMBOYKVnBMC"
+    },
+    {
+      "title": "Boosting the optoelectronic properties of molybdenum diselenide by combining phase transition engineering with organic cationic dye doping",
+      "authors": "EK Lee, H Abdullah, F Torricelli, DH Lee, JK Ko, HH Kim, H Yoo, JH Oh",
+      "venue": "ACS nano 15 (11), 17769-17779, 2021",
+      "citations": 19,
+      "year": 2021,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:_Qo2XoVZTnwC"
+    },
+    {
+      "title": "Transparent and flexible vibration sensor based on a wheel-shaped hybrid thin membrane",
+      "authors": "S Lee, EK Lee, E Lee, GY Bae",
+      "venue": "Micromachines 12 (10), 1246, 2021",
+      "citations": 3,
+      "year": 2021,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:e5wmG9Sq2KIC"
+    },
+    {
+      "title": "Self-powered sensors: new opportunities and challenges from two-dimensional nanomaterials",
+      "authors": "E Lee, H Yoo",
+      "venue": "Molecules 26 (16), 5056, 2021",
+      "citations": 38,
+      "year": 2021,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:R3hNpaxXUhUC"
+    },
+    {
+      "title": "Unprecedentedly uniform, reliable, and centimeter-scale molybdenum disulfide negative differential resistance photodetectors",
+      "authors": "G Woo, EK Lee, H Yoo, T Kim",
+      "venue": "ACS Applied Materials & Interfaces 13 (21), 25072-25081, 2021",
+      "citations": 17,
+      "year": 2021,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:TQgYirikUcIC"
+    },
+    {
+      "title": "Advanced Materials and Assembly Strategies for Wearable Biosensors",
+      "authors": "EK Lee, H Yoo, CH Lee",
+      "venue": "Biosensors: Current and Novel Strategies for Biosensing, 83, 2021",
+      "citations": 12,
+      "year": 2021,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:ZeXyd9-uunAC"
+    },
+    {
+      "title": "Recent advances in electrode development for biomedical applications",
+      "authors": "EK Lee, RK Baruah, H Bhamra, YJ Kim, H Yoo",
+      "venue": "Biomedical Engineering Letters, 10.1007/s13534-021-00189-6, 2021",
+      "citations": 21,
+      "year": 2021,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:HDshCWvjkbEC"
+    },
+    {
+      "title": "Fused Aromatic Network Structures: Fused Aromatic Network with Exceptionally High Carrier Mobility (Adv. Mater. 9/2021)",
+      "authors": "J Mahmood, EK Lee, HJ Noh, I Ahmad, JM Seo, YK Im, JP Jeon, SJ Kim, ...",
+      "venue": "Advanced Materials 33 (9), 2170063, 2021",
+      "citations": null,
+      "year": 2021,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:mB3voiENLucC"
+    },
+    {
+      "title": "Fused aromatic network with exceptionally high carrier mobility",
+      "authors": "J Mahmood, EK Lee, HJ Noh, I Ahmad, JM Seo, YK Im, JP Jeon, SJ Kim, ...",
+      "venue": "Advanced Materials 33 (9), 2004707, 2021",
+      "citations": 37,
+      "year": 2021,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:-f6ydRqryjwC"
+    },
+    {
+      "title": "Fractal web design of a hemispherical photodetector array with organic‐dye‐sensitized graphene hybrid composites",
+      "authors": "EK Lee, RK Baruah, JW Leem, W Park, BH Kim, A Urbas, Z Ku, YL Kim, ...",
+      "venue": "Advanced Materials 32 (46), 2004456, 2020",
+      "citations": 39,
+      "year": 2020,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:7PzlFSSx8tAC"
+    },
+    {
+      "title": "Organic Electronics: Flexible Low‐Power Operative Organic Source‐Gated Transistors (Adv. Funct. Mater. 27/2019).",
+      "authors": "Y Kim, EK Lee, JH Oh",
+      "venue": "Advanced Functional Materials 29 (27), 2019",
+      "citations": 1,
+      "year": 2019,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:QIV2ME_5wuYC"
+    },
+    {
+      "title": "Flexible Low‐Power Operative Organic Source‐Gated Transistors",
+      "authors": "Y Kim, EK Lee, JH Oh",
+      "venue": "Advanced Functional Materials 29 (27), 1900650, 2019",
+      "citations": 43,
+      "year": 2019,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:Wp0gIr-vW9MC"
+    },
+    {
+      "title": "Skin-mountable biosensors and therapeutics: a review",
+      "authors": "EK Lee, MK Kim, CH Lee",
+      "venue": "Annual review of biomedical engineering 21 (1), 299-323, 2019",
+      "citations": 72,
+      "year": 2019,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:L8Ckcad2t8MC"
+    },
+    {
+      "title": "Reduced Pyronin B as a solution-processable and heating-free n-type dopant for soft electronics",
+      "authors": "EK Lee, Y Kim, J Back, E Lee, JH Oh",
+      "venue": "Journal of Materials Chemistry C 6 (25), 6672-6679, 2018",
+      "citations": 13,
+      "year": 2018,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:qxL8FJ1GzNcC"
+    },
+    {
+      "title": "Grazing-Incidence X-ray Diffraction 을 이용한유기반도체 구조 분석과 양극성 유기트랜지스터어레이 응용",
+      "authors": "EK Lee, CH Park, J Lee, HR Lee, C Yang, JH Oh",
+      "venue": "",
+      "citations": null,
+      "year": 2017,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:4TOpqqG69KYC"
+    },
+    {
+      "title": "Toward Environmentally Robust Organic Electronics: Approaches and Applications",
+      "authors": "EK Lee*, MY Lee*, CH Park, HR Lee, JH Oh",
+      "venue": "Advanced Materials, 2017",
+      "citations": 223,
+      "year": 2017,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:YOwf2qJgpHMC"
+    },
+    {
+      "title": "Ambipolar Polymer Semiconductor for Solution Process, Method for Manufacturing the Same, And Organic Thin-Film Transistor Comprising the Same",
+      "authors": "JH Oh, EK Lee, CH Park, C Yang",
+      "venue": "KR Patent App. 10-2017-0,104,949, 2017",
+      "citations": null,
+      "year": 2017,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:M3ejUd6NZC8C"
+    },
+    {
+      "title": "Chemically robust ambipolar organic transistor array directly patterned by photolithography",
+      "authors": "EK Lee*, CH Park*, J Lee, HR Lee, C Yang, JH Oh",
+      "venue": "Advanced Materials 29 (11), 2017",
+      "citations": 93,
+      "year": 2017,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:Zph67rFs4hoC"
+    },
+    {
+      "title": "Soft Nanoelectronic Devices Based on Novel 2D Nanomaterials and Self-assembled Organic Semiconductors",
+      "authors": "EK Lee",
+      "venue": "Ulsan National Institute of Science and Technology (UNIST), 2017",
+      "citations": null,
+      "year": 2017,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:hC7cP41nSMkC"
+    },
+    {
+      "title": "Two-dimensional polyaniline-2D C3N structures",
+      "authors": "J Mahmood, EK Lee, M Jung, D Shin, HJ Choi, JM Seo, SM Jung, D Kim, ...",
+      "venue": "Materials Research Society, 2016",
+      "citations": null,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:g5m5HwL7SMYC"
+    },
+    {
+      "title": "Highly Enhanced Optoelectronic Properties in MoSe₂ with Reduced Organic Dye Molecular N-Dopant",
+      "authors": "EK Lee, H Abdullah, JH Oh",
+      "venue": "The Polymer Society of Korea, 2016 Fall Meeting 41 (2), 675-675, 2016",
+      "citations": null,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:KlAtU1dfN6UC"
+    },
+    {
+      "title": "Two-dimensional C3N structures",
+      "authors": "J Mahmood, EK Lee, M Jung, D Shin, HJ Choi, JM Seo, SM Jung, D Kim, ...",
+      "venue": "The Polymer Society of Korea, 2016 Fall Meeting 41 (2), 958-958, 2016",
+      "citations": null,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:kNdYIx-mwKoC"
+    },
+    {
+      "title": "Transparent and Low Work Function Electrodes with Stretchable Graphene and Metal Grid",
+      "authors": "EK Lee, CH Park, Y Kim, JH Oh",
+      "venue": "The Polymer Society of Korea, 2016 Fall Meeting 41 (2), 477-477, 2016",
+      "citations": null,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "Chemically Robust Organic Field-Effect Transistor Array with Graphene Electrodes for Enhanced Ambipolarity",
+      "authors": "CH PARK, EK LEE, HR LEE, EY PARK, SJ LEE, JH OH",
+      "venue": "The Polymer Society of Korea, 2016 Spring Meeting 41 (2), 565-565, 2016",
+      "citations": null,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:MXK_kJrjxJIC"
+    },
+    {
+      "title": "Nitrogenated two-dimensional structure, a semiconducting covalent-organic framework",
+      "authors": "J Mahmood, EK Lee, M Jung, D Shin, IY Jeon, SM Jung, HJ Choi, JM Seo, ...",
+      "venue": "The Polymer Society of Korea, 2016 Fall Meeting 41 (2), 954-954, 2016",
+      "citations": null,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:8k81kl-MbHgC"
+    },
+    {
+      "title": "Two-dimensional polyaniline (C3N) from carbonized organic single crystals in solid state",
+      "authors": "J Mahmood*, EK Lee*, M Jung, D Shin, HJ Choi, JM Seo, SM Jung, D Kim, ...",
+      "venue": "Proceedings of the National Academy of Sciences 113 (27), 7414-7419, 2016",
+      "citations": 495,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:roLk4NBRz8UC"
+    },
+    {
+      "title": "Flexible organic phototransistor array with enhanced responsivity via metal–ligand charge transfer",
+      "authors": "X Liu*, EK Lee*, DY Kim, H Yu, JH Oh",
+      "venue": "ACS Applied Materials & Interfaces 8 (11), 7291-7299, 2016",
+      "citations": 91,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:_FxGoFyzp5QC"
+    },
+    {
+      "title": "Effects of microwave-assisted annealing on the morphology and electrical performance of semiconducting polymer thin films",
+      "authors": "X Shang, H Yu, W Choi, EK Lee, JH Oh",
+      "venue": "Organic electronics 30, 207-212, 2016",
+      "citations": 13,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:LkGwnXOMwfcC"
+    },
+    {
+      "title": "Highly flexible organic nanofiber phototransistors fabricated on a textile composite for wearable photosensors",
+      "authors": "MY Lee, J Hong, EK Lee, H Yu, H Kim, JU Lee, W Lee, JH Oh",
+      "venue": "Advanced Functional Materials 26 (9), 1445-1453, 2016",
+      "citations": 128,
+      "year": 2016,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:ufrVoPGSRksC"
+    },
+    {
+      "title": "Carbon-based hybrid photodetectors functionalized with a ruthenium complex",
+      "authors": "EK Lee, X Liu, DY Kim, JH Oh",
+      "venue": "IUPAC-2015, 2015",
+      "citations": null,
+      "year": 2015,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:WF5omc3nYNoC"
+    },
+    {
+      "title": "ZnO nanowire based photoelectrical resistive switches for flexible memory",
+      "authors": "J Park, H Song, EK Lee, JH Oh, K Yong",
+      "venue": "Journal of The Electrochemical Society 162 (9), H713, 2015",
+      "citations": 18,
+      "year": 2015,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "title": "Carbon-based hybrid photodetectors functionalized with a ruthenium complex",
+      "authors": "EK Lee, X Liu, DY Kim, JH Oh",
+      "venue": "31st International Conference of the Polymer Processing Society, 2015",
+      "citations": null,
+      "year": 2015,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:eQOLeE2rZwMC"
+    },
+    {
+      "title": "Hybrid photodetectors geared with a photoactive ruthenium complex",
+      "authors": "EK Lee, X Liu, DY Kim, JH Oh",
+      "venue": "The Korean Society of Industrial and Engineering Chemistry, 2015 Spring Meeting, 2015",
+      "citations": null,
+      "year": 2015,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:YsMSGLbcyi4C"
+    },
+    {
+      "title": "Nitrogenated holey two-dimensional structures",
+      "authors": "J Mahmood, EK Lee, M Jung, D Shin, IY Jeon, SM Jung, HJ Choi, JM Seo, ...",
+      "venue": "Nature communications 6 (1), 6486, 2015",
+      "citations": 1163,
+      "year": 2015,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "title": "Metallic Complex and Graphene-Metallic Complex Hybrid Including the Same",
+      "authors": "EK Lee, X Liu, JH Oh",
+      "venue": "KR Patent App. 10-2014-0,122,119, 2014",
+      "citations": null,
+      "year": 2014,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:IjCSPb-OGe4C"
+    },
+    {
+      "title": "Graphene–Ruthenium Complex Hybrid Photodetectors with Ultrahigh Photoresponsivity",
+      "authors": "X Liu*, EK Lee*, JH Oh",
+      "venue": "Small 10 (18), 3700-3706, 2014",
+      "citations": 43,
+      "year": 2014,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:9yKSN-GCB0IC"
+    },
+    {
+      "title": "Graphene-ruthenium complex hybrid photodetectors with ultrahigh photoresponsivity",
+      "authors": "X Liu, EK Lee, JH Oh",
+      "venue": "The Polymer Society of Korea, 2014 Spring Meeting, 2014",
+      "citations": 43,
+      "year": 2014,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:W7OEmFMy1HYC"
+    },
+    {
+      "title": "Direct Solvothermal Synthesis of B/N‐Doped Graphene",
+      "authors": "SM Jung, EK Lee, M Choi, D Shin, IY Jeon, JM Seo, HY Jeong, N Park, ...",
+      "venue": "Angewandte Chemie 126 (9), 2430-2433, 2014",
+      "citations": 96,
+      "year": 2014,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "title": "Effects of Molecular Dual Doping and Doing Location in Graphene Field-effect Transistors",
+      "authors": "EK Lee, EY Park, CH Park, JH Oh",
+      "venue": "Material Research Society (2012 fall meeting), 2013",
+      "citations": null,
+      "year": 2013,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:zYLM7Y9cAGgC"
+    },
+    {
+      "title": "Bandgap Control of Bilayer Graphene Using Self-assembled Monolayer and Graphene Oxide",
+      "authors": "EK Lee, CH Park, JH Oh",
+      "venue": "The Polymer Society of Korea, 2013 Fall Meeting, 2013",
+      "citations": null,
+      "year": 2013,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:Y0pCki6q_DkC"
+    },
+    {
+      "title": "Tuning polarity and improving charge transport in organic semiconductors",
+      "authors": "JH Oh, AR Han, H Yu, EK Lee, MJ Jang",
+      "venue": "Organic Field-Effect Transistors XII; and Organic Semiconductors in Sensors …, 2013",
+      "citations": 1,
+      "year": 2013,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "title": "Nitrogen-doped graphene nanoplatelets from simple solution edge-functionalization for n-type field-effect transistors",
+      "authors": "DW Chang*, EK Lee*, EY Park, H Yu, HJ Choi, IY Jeon, GJ Sohn, D Shin, ...",
+      "venue": "Journal of the American Chemical Society 135 (24), 8981-8988, 2013",
+      "citations": 151,
+      "year": 2013,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "title": "Effects of Molecular Dual Doping and Doping Location in Graphene Field-Effect Transistors",
+      "authors": "EK Lee, EY Park, CH Park, JH Oh",
+      "venue": "The Polymer Society of Korea, 2013 Spring Meeting, 2013",
+      "citations": null,
+      "year": 2013,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:Tyk-4Ss8FVUC"
+    },
+    {
+      "title": "Organic neuromorphic electronics powering intelligent sensory and edge computing systems",
+      "authors": "S Woo, M Chung, HW Song, S Kim, EK Lee, JH Oh",
+      "venue": "InfoMat, e70118, 0",
+      "citations": null,
+      "year": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:D03iK_w7-QYC"
+    },
+    {
+      "title": "Enhanced Near-Infrared Photonic Synaptic Devices for Unimodal Associative Learning via PVDF-HFP Trap Effects and IEICO-4F Sensitization",
+      "authors": "MJ Jung, Y Kim, WY Lee, KJ Baeg, EK Lee",
+      "venue": "Available at SSRN 6124393, 0",
+      "citations": null,
+      "year": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:a0OBvERweLwC"
+    },
+    {
+      "title": "Fully Screen-Printed OECTs with Nafion/Chitosan-Coated Gates for Selective Cation Sensing and Scalable Production",
+      "authors": "JE Seo, Y Kim, S Kang, SH Chung, JH Song, H Yoo, EK Lee",
+      "venue": "Chitosan-Coated Gates for Selective Cation Sensing and Scalable Production, 0",
+      "citations": null,
+      "year": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:yD5IFk8b50cC"
+    },
+    {
+      "title": "Adaptive VOC Detection with Alcohol Dehydrogenase-Integrated Gelatin Transistors",
+      "authors": "HN Kim, JH Song, HR Lim, W Choi, SH Lee, GH Hong, S Oh, H Yoo, ...",
+      "venue": "Available at SSRN 5464167, 0",
+      "citations": null,
+      "year": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:dfsIfKJdRG4C"
+    },
+    {
+      "title": "Confinement at Defect Sites Dissociates Ionic-liquid Pairs for Brain-like Organic Computing",
+      "authors": "CM Lee, JU Kim, Y An, HJ Son, H Yoo, S Ga, CS Lee, EK Lee",
+      "venue": "Available at SSRN 5734105, 0",
+      "citations": null,
+      "year": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:fPk4N6BV_jEC"
+    },
+    {
+      "title": "Nitrogenated holey two-dimensional structures, Nat. Commun. 6 (2015) 6486",
+      "authors": "J Mahmood, EK Lee, M Jung, D Shin, IY Jeon, SM Jung, HJ Choi, JM Seo, ...",
+      "venue": "",
+      "citations": 15,
+      "year": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:lSLTfruPkqcC"
+    },
+    {
+      "title": "Hybrid Amphiphilic Janus Pdms Sponge Enabling Electrical Sensing of Oils",
+      "authors": "MJ Oh, JH Oh, EK Lee",
+      "venue": "Available at SSRN 4876308, 0",
+      "citations": null,
+      "year": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_ME8VaYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_ME8VaYAAAAJ:blknAaTinKkC"
+    }
+  ]
+}
