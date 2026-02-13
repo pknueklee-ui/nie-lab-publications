@@ -146,7 +146,7 @@ def generate_html(publications, stats):
             authors_html = authors_html.replace("E.K. Lee", "<strong>E.K. Lee</strong>")
             
             citation_badge = ""
-            if citations > 0:
+            if citations and citations > 0:
                 badge_class = "cite-high" if citations >= 50 else ("cite-med" if citations >= 10 else "cite-low")
                 citation_badge = f'<span class="cite-badge {badge_class}">{citations} citations</span>'
             
