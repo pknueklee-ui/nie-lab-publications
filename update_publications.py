@@ -1,8 +1,8 @@
 """
-NIE LAB Publication Auto-Updater (v3)
-- SerpAPI for Google Scholar data
-- OpenAlex API for Journal Impact Factors (free, no key needed)
-- Corresponding author marking from manual list
+NIE LAB Publication Auto-Updater (v4)
+- SerpAPI for Google Scholar data (with full article details)
+- OpenAlex API for Journal Impact Factors
+- Full title and author list (no truncation)
 
 Usage: python update_publications.py
 Requires: SERPAPI_KEY environment variable
@@ -10,6 +10,7 @@ Requires: SERPAPI_KEY environment variable
 
 import json
 import os
+import re
 import time
 import urllib.request
 import urllib.parse
@@ -18,11 +19,10 @@ from datetime import datetime
 # ============================================
 # 설정 (Configuration)
 # ============================================
-SCHOLAR_ID = "_ME8VaYAAAAJ"  # Google Scholar Profile ID
+SCHOLAR_ID = "_ME8VaYAAAAJ"
 OUTPUT_HTML = "docs/index.html"
 OUTPUT_JSON = "docs/publications.json"
 IF_CACHE_FILE = "docs/if_cache.json"
-CORRESPONDING_FILE = "corresponding_author.txt"
 MAX_PAPERS = 200
 
 SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "")
@@ -32,9 +32,7 @@ SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "")
 # SerpAPI functions
 # ============================================
 def serpapi_request(params):
-    """Make a request to SerpAPI."""
     params["api_key"] = SERPAPI_KEY
-    params["engine"] = "google_scholar_author"
     url = f"https://serpapi.com/search?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url)
     with urllib.request.urlopen(req, timeout=30) as response:
@@ -42,8 +40,7 @@ def serpapi_request(params):
 
 
 def get_author_info():
-    """Get author citation stats."""
-    params = {"author_id": SCHOLAR_ID, "hl": "en"}
+    params = {"engine": "google_scholar_author", "author_id": SCHOLAR_ID, "hl": "en"}
     data = serpapi_request(params)
     cited_by = data.get("cited_by", {}).get("table", [])
     stats = {"total_citations": 0, "h_index": 0, "i10_index": 0}
@@ -57,13 +54,33 @@ def get_author_info():
     return stats
 
 
+def get_article_detail(citation_id):
+    """Fetch full details of a single article (complete title, all authors)."""
+    try:
+        params = {
+            "engine": "google_scholar_author",
+            "author_id": SCHOLAR_ID,
+            "citation_id": citation_id,
+            "hl": "en",
+            "view_op": "view_citation"
+        }
+        data = serpapi_request(params)
+        return data.get("citation", {})
+    except Exception as e:
+        print(f"    Warning: Could not fetch detail: {e}")
+        return {}
+
+
 def get_publications(max_papers=200):
-    """Get all publications from Google Scholar profile via SerpAPI."""
+    """Get all publications with full details."""
     all_pubs = []
     start = 0
+    
+    # Step 1: Get basic list
     while len(all_pubs) < max_papers:
-        print(f"  Fetching publications starting from {start}...")
+        print(f"  Fetching publication list starting from {start}...")
         params = {
+            "engine": "google_scholar_author",
             "author_id": SCHOLAR_ID, "hl": "en",
             "start": start, "num": 100, "sort": "pubdate"
         }
@@ -71,28 +88,79 @@ def get_publications(max_papers=200):
         articles = data.get("articles", [])
         if not articles:
             break
-        for article in articles:
+        all_pubs.extend(articles)
+        if len(articles) < 100:
+            break
+        start += 100
+        time.sleep(1)
+    
+    all_pubs = all_pubs[:max_papers]
+    
+    # Step 2: Fetch full details for articles with truncated info
+    print(f"\n  Fetching full details for {len(all_pubs)} articles...")
+    detailed_pubs = []
+    
+    for i, article in enumerate(all_pubs):
+        title = article.get("title", "")
+        authors = article.get("authors", "")
+        citation_id = article.get("citation_id", "")
+        
+        # Check if title or authors are truncated (ends with ...)
+        needs_detail = ("…" in title or "..." in title or 
+                       "…" in authors or "..." in authors)
+        
+        if needs_detail and citation_id:
+            detail = get_article_detail(citation_id)
+            if detail:
+                full_title = detail.get("title", title)
+                # Authors in detail come as list or string
+                full_authors = detail.get("authors", authors)
+                if isinstance(full_authors, list):
+                    full_authors = ", ".join(full_authors)
+                
+                # Get publication info
+                pub_info = detail.get("publication", article.get("publication", ""))
+                
+                pub = {
+                    "title": full_title,
+                    "authors": full_authors,
+                    "venue": pub_info,
+                    "citations": article.get("cited_by", {}).get("value", 0),
+                    "year": int(article.get("year", "0")) if article.get("year", "").isdigit() else 0,
+                    "link": article.get("link", "#")
+                }
+            else:
+                pub = {
+                    "title": title,
+                    "authors": authors,
+                    "venue": article.get("publication", ""),
+                    "citations": article.get("cited_by", {}).get("value", 0),
+                    "year": int(article.get("year", "0")) if article.get("year", "").isdigit() else 0,
+                    "link": article.get("link", "#")
+                }
+            time.sleep(0.5)  # Rate limiting
+        else:
             pub = {
-                "title": article.get("title", ""),
-                "authors": article.get("authors", ""),
+                "title": title,
+                "authors": authors,
                 "venue": article.get("publication", ""),
                 "citations": article.get("cited_by", {}).get("value", 0),
                 "year": int(article.get("year", "0")) if article.get("year", "").isdigit() else 0,
                 "link": article.get("link", "#")
             }
-            all_pubs.append(pub)
-        if len(articles) < 100:
-            break
-        start += 100
-        time.sleep(1)
-    return all_pubs[:max_papers]
+        
+        detailed_pubs.append(pub)
+        
+        if (i + 1) % 20 == 0:
+            print(f"    Processed {i + 1}/{len(all_pubs)}...")
+    
+    return detailed_pubs
 
 
 # ============================================
 # OpenAlex API for Impact Factor
 # ============================================
 def load_if_cache():
-    """Load cached IF values."""
     if os.path.exists(IF_CACHE_FILE):
         with open(IF_CACHE_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -100,123 +168,66 @@ def load_if_cache():
 
 
 def save_if_cache(cache):
-    """Save IF cache."""
     with open(IF_CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
 def normalize_journal_name(name):
-    """Normalize journal name for matching."""
     if not name:
         return ""
-    # Remove volume, issue, page info
-    # e.g., "Advanced Materials 35 (12), 2417539" -> "Advanced Materials"
-    import re
-    # Remove everything after first number sequence that looks like volume
     cleaned = re.split(r'\s+\d+\s*[\(,]', name)[0].strip()
-    # Remove trailing commas, dots
     cleaned = cleaned.rstrip('.,; ')
     return cleaned.lower()
 
 
 def get_journal_if(journal_name, cache):
-    """Get Impact Factor for a journal using OpenAlex API."""
     normalized = normalize_journal_name(journal_name)
     if not normalized:
         return None
-    
-    # Check cache first
     if normalized in cache:
         return cache[normalized]
-    
     try:
         query = urllib.parse.quote(normalized)
         url = f"https://api.openalex.org/sources?search={query}&per_page=1&mailto=nielab@pknu.ac.kr"
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "NIELab-Publication-Updater/1.0"
-        })
+        req = urllib.request.Request(url, headers={"User-Agent": "NIELab/1.0"})
         with urllib.request.urlopen(req, timeout=15) as response:
             data = json.loads(response.read().decode("utf-8"))
-        
         results = data.get("results", [])
         if results:
-            source = results[0]
-            # OpenAlex provides 2-year mean citedness (similar to IF)
-            summary = source.get("summary_stats", {})
+            summary = results[0].get("summary_stats", {})
             impact = summary.get("2yr_mean_citedness")
             if impact is not None:
                 impact = round(impact, 1)
             cache[normalized] = impact
             return impact
-        
         cache[normalized] = None
         return None
-        
     except Exception as e:
         print(f"    Warning: Could not fetch IF for '{normalized}': {e}")
         return None
 
 
 def get_all_impact_factors(publications):
-    """Get IF values for all unique journals."""
     cache = load_if_cache()
-    
-    # Collect unique journal names
     journals = set()
     for pub in publications:
         normalized = normalize_journal_name(pub.get("venue", ""))
         if normalized and normalized not in cache:
             journals.add(normalized)
-    
     print(f"  Looking up IF for {len(journals)} new journals...")
-    
     for i, journal in enumerate(journals):
-        # Re-create the original-ish name for search
         get_journal_if(journal, cache)
         if (i + 1) % 10 == 0:
             print(f"    Processed {i + 1}/{len(journals)}...")
-        time.sleep(0.2)  # Rate limiting for OpenAlex
-    
+        time.sleep(0.2)
     save_if_cache(cache)
     return cache
 
 
 # ============================================
-# Corresponding Author management
-# ============================================
-def load_corresponding_papers():
-    """Load list of papers where the PI is corresponding author.
-    
-    File format (corresponding_author.txt):
-    - One paper title per line (can be partial match)
-    - Lines starting with # are comments
-    - Empty lines are ignored
-    """
-    papers = []
-    if os.path.exists(CORRESPONDING_FILE):
-        with open(CORRESPONDING_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#"):
-                    papers.append(line.lower())
-    return papers
-
-
-def is_corresponding_author(pub_title, corresponding_list):
-    """Check if the PI is corresponding author of this paper."""
-    title_lower = pub_title.lower()
-    for pattern in corresponding_list:
-        if pattern in title_lower or title_lower in pattern:
-            return True
-    return False
-
-
-# ============================================
 # HTML Generation
 # ============================================
-def generate_html(publications, stats, if_cache, corresponding_list):
-    """Generate HTML page with IF and corresponding author info."""
-    
+def generate_html(publications, stats, if_cache):
     pubs_by_year = {}
     for pub in publications:
         year = pub.get("year", 0)
@@ -248,24 +259,14 @@ def generate_html(publications, stats, if_cache, corresponding_list):
             citations = pub.get("citations") or 0
             link = pub.get("link", "#")
             
-            # Check corresponding author
-            is_corresponding = is_corresponding_author(title, corresponding_list)
+            # Highlight PI name
+            authors_html = authors.replace("EK Lee", "<strong>EK Lee</strong>")
+            authors_html = authors_html.replace("E Lee", "<strong>E Lee</strong>")
+            authors_html = authors_html.replace("E.K. Lee", "<strong>E.K. Lee</strong>")
             
-            # Highlight PI name with corresponding author mark
-            if is_corresponding:
-                authors_html = authors.replace("EK Lee", "<strong>EK Lee*</strong>")
-                authors_html = authors_html.replace("E Lee", "<strong>E Lee*</strong>")
-                authors_html = authors_html.replace("E.K. Lee", "<strong>E.K. Lee*</strong>")
-            else:
-                authors_html = authors.replace("EK Lee", "<strong>EK Lee</strong>")
-                authors_html = authors_html.replace("E Lee", "<strong>E Lee</strong>")
-                authors_html = authors_html.replace("E.K. Lee", "<strong>E.K. Lee</strong>")
-            
-            # Get Impact Factor
+            # Impact Factor
             normalized_venue = normalize_journal_name(venue)
             impact_factor = if_cache.get(normalized_venue)
-            
-            # Build venue display with IF
             venue_display = venue
             if impact_factor and impact_factor > 0:
                 venue_display = f'{venue} <span class="if-badge">IF: {impact_factor}</span>'
@@ -276,20 +277,12 @@ def generate_html(publications, stats, if_cache, corresponding_list):
                 badge_class = "cite-high" if citations >= 50 else ("cite-med" if citations >= 10 else "cite-low")
                 citation_badge = f'<span class="cite-badge {badge_class}">{citations} citations</span>'
             
-            # Corresponding author indicator
-            corr_mark = ""
-            if is_corresponding:
-                corr_mark = '<span class="corr-badge">✉ Corresponding</span>'
-            
             items += f"""
             <div class="pub-item">
                 <div class="pub-title"><a href="{link}" target="_blank" rel="noopener">{title}</a></div>
                 <div class="pub-authors">{authors_html}</div>
                 <div class="pub-venue">{venue_display}</div>
-                <div class="pub-badges">
-                    {citation_badge}
-                    {corr_mark}
-                </div>
+                {citation_badge}
             </div>"""
         
         pub_sections += f"""
@@ -322,7 +315,6 @@ def generate_html(publications, stats, if_cache, corresponding_list):
     --text-secondary: #555568;
     --text-muted: #8888a0;
     --accent: #2d5a8e;
-    --accent-light: #e8f0fa;
     --border: #e8e8ee;
     --cite-high: #c0392b;
     --cite-med: #e67e22;
@@ -343,28 +335,13 @@ body {{
     padding: 2rem 1.5rem;
 }}
 
-.legend {{
-    display: flex;
-    gap: 1.2rem;
-    margin-bottom: 1.2rem;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    flex-wrap: wrap;
-}}
-
-.legend-item {{
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-}}
-
 .stats-banner {{
     display: flex;
     gap: 1px;
     background: var(--border);
     border-radius: 12px;
     overflow: hidden;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }}
 
@@ -458,19 +435,13 @@ body {{
     margin-top: 0.15rem;
 }}
 
-.pub-badges {{
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    margin-top: 0.35rem;
-}}
-
 .cite-badge {{
     display: inline-block;
     font-size: 0.7rem;
     font-weight: 600;
     padding: 0.15rem 0.5rem;
     border-radius: 10px;
+    margin-top: 0.35rem;
     letter-spacing: 0.02em;
 }}
 
@@ -500,16 +471,6 @@ body {{
     color: #2e7d32;
     margin-left: 0.3rem;
     vertical-align: middle;
-}}
-
-.corr-badge {{
-    display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 600;
-    padding: 0.15rem 0.5rem;
-    border-radius: 10px;
-    background: var(--accent-light);
-    color: var(--accent);
 }}
 
 .footer {{
@@ -563,12 +524,6 @@ body {{
         </div>
     </div>
 
-    <div class="legend">
-        <div class="legend-item"><strong style="color:var(--accent)">EK Lee*</strong> = Corresponding author</div>
-        <div class="legend-item"><span class="if-badge">IF: 0.0</span> = Impact Factor</div>
-        <div class="legend-item"><span class="corr-badge">✉ Corresponding</span> = Corresponding author paper</div>
-    </div>
-
     {pub_sections}
 
     <div class="footer">
@@ -582,36 +537,29 @@ body {{
     return html
 
 
-# ============================================
-# Main
-# ============================================
 def main():
     if not SERPAPI_KEY:
         print("ERROR: SERPAPI_KEY environment variable is not set!")
         exit(1)
     
     print("=" * 50)
-    print("NIE LAB Publication Updater v3")
+    print("NIE LAB Publication Updater v4")
     print("=" * 50)
     
-    print("\n[1/5] Fetching citation statistics...")
+    print("\n[1/4] Fetching citation statistics...")
     stats = get_author_info()
     print(f"  Citations: {stats['total_citations']}, h-index: {stats['h_index']}, i10-index: {stats['i10_index']}")
     
-    print("\n[2/5] Fetching publications...")
+    print("\n[2/4] Fetching publications (with full details)...")
     publications = get_publications(MAX_PAPERS)
     print(f"  Found {len(publications)} publications")
     
-    print("\n[3/5] Fetching Impact Factors from OpenAlex...")
+    print("\n[3/4] Fetching Impact Factors from OpenAlex...")
     if_cache = get_all_impact_factors(publications)
     matched = sum(1 for v in if_cache.values() if v and v > 0)
     print(f"  IF data available for {matched} journals")
     
-    print("\n[4/5] Loading corresponding author list...")
-    corresponding_list = load_corresponding_papers()
-    print(f"  {len(corresponding_list)} papers marked as corresponding author")
-    
-    print("\n[5/5] Generating HTML...")
+    print("\n[4/4] Generating HTML...")
     os.makedirs("docs", exist_ok=True)
     
     data = {
@@ -624,7 +572,7 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"  Saved JSON to {OUTPUT_JSON}")
     
-    html = generate_html(publications, stats, if_cache, corresponding_list)
+    html = generate_html(publications, stats, if_cache)
     with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"  Saved HTML to {OUTPUT_HTML}")
