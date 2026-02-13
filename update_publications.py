@@ -130,7 +130,7 @@ def generate_html(publications, stats):
     pub_sections = ""
     for year in sorted_years:
         pubs = pubs_by_year[year]
-        pubs_sorted = sorted(pubs, key=lambda x: x.get("citations", 0), reverse=True)
+        pubs_sorted = sorted(pubs, key=lambda x: x.get("citations") or 0, reverse=True)
         
         items = ""
         for pub in pubs_sorted:
