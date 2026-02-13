@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T01:35:46.922950",
+  "updated": "2026-02-13T01:43:45.381442",
   "scholar_id": "_ME8VaYAAAAJ",
   "stats": {
     "total_citations": 3132,
@@ -33,7 +33,7 @@
     },
     {
       "title": "Over 1011-fold variability for a base-12 PUF using particle-damaged graphene",
-      "authors": "DH Lee, Y Han, G Woo, RH Koo, H Shin, J Cho, EK Lee, W Shin, T Kim, ...",
+      "authors": "Dong Hyun Lee, Youngmin Han, Gunhoo Woo, Ryun-Han Koo, Hyelim Shin, Jinill Cho, Eun Kwang Lee, Wonjun Shin, Taesung Kim, Hocheon Yoo",
       "venue": "Device 3 (12), 2025",
       "citations": null,
       "year": 2025,
@@ -65,7 +65,7 @@
     },
     {
       "title": "Detachable and Reusable: Reinforced π‐Ion Film for Modular Synaptic Reservoir Computing (Adv. Mater. 41/2025)",
-      "authors": "GW Woo, CM Lee, WW Lee, MJ Jung, SM Lee, HW Lee, H Yoo, YH Kim, ...",
+      "authors": "Gyu Won Woo, Chang Min Lee, Won Woo Lee, Min Ju Jung, Seung Min Lee, Hye Won Lee, Hocheon Yoo, Yong Hee Kim, Eun Kwang Lee",
       "venue": "Advanced Materials 37 (41), e70826, 2025",
       "citations": null,
       "year": 2025,
@@ -73,7 +73,7 @@
     },
     {
       "title": "Detachable and Reusable: Reinforced π‐Ion Film for Modular Synaptic Reservoir Computing",
-      "authors": "GW Woo, CM Lee, WW Lee, MJ Jung, SM Lee, HW Lee, H Yoo, YH Kim, ...",
+      "authors": "Gyu Won Woo, Chang Min Lee, Won Woo Lee, Min Ju Jung, Seung Min Lee, Hye Won Lee, Hocheon Yoo, Yong Hee Kim, Eun Kwang Lee",
       "venue": "Advanced Materials 37 (41), 2506729, 2025",
       "citations": 3,
       "year": 2025,
@@ -153,7 +153,7 @@
     },
     {
       "title": "Highly Efficient n‐Type Doped Single‐Crystalline Perylene Diimide Microwires via Solution Processing for High‐Performance Photosensors and Photo …",
-      "authors": "Y Kim, HW Lee, MJ Jung, S Lee, JH Oh, EK Lee",
+      "authors": "Yonghee Kim, Hye Won Lee, Min Ju Jung, Sangwook Lee, Joon Hak Oh, Eun Kwang Lee",
       "venue": "Advanced Materials Technologies, e00681, 2025",
       "citations": 1,
       "year": 2025,
@@ -353,7 +353,7 @@
     },
     {
       "title": "Fused Aromatic Network Structures: Fused Aromatic Network with Exceptionally High Carrier Mobility (Adv. Mater. 9/2021)",
-      "authors": "J Mahmood, EK Lee, HJ Noh, I Ahmad, JM Seo, YK Im, JP Jeon, SJ Kim, ...",
+      "authors": "Javeed Mahmood, Eun Kwang Lee, Hyuk‐Jun Noh, Ishfaq Ahmad, Jeong‐Min Seo, Yoon‐Kwang Im, Jong‐Pil Jeon, Seok‐Jin Kim, Joon Hak Oh, Jong‐Beom Baek",
       "venue": "Advanced Materials 33 (9), 2170063, 2021",
       "citations": null,
       "year": 2021,
@@ -361,7 +361,7 @@
     },
     {
       "title": "Fused aromatic network with exceptionally high carrier mobility",
-      "authors": "J Mahmood, EK Lee, HJ Noh, I Ahmad, JM Seo, YK Im, JP Jeon, SJ Kim, ...",
+      "authors": "Javeed Mahmood, Eun Kwang Lee, Hyuk‐Jun Noh, Ishfaq Ahmad, Jeong‐Min Seo, Yoon‐Kwang Im, Jong‐Pil Jeon, Seok‐Jin Kim, Joon Hak Oh, Jong‐Beom Baek",
       "venue": "Advanced Materials 33 (9), 2004707, 2021",
       "citations": 37,
       "year": 2021,
@@ -369,7 +369,7 @@
     },
     {
       "title": "Fractal web design of a hemispherical photodetector array with organic‐dye‐sensitized graphene hybrid composites",
-      "authors": "EK Lee, RK Baruah, JW Leem, W Park, BH Kim, A Urbas, Z Ku, YL Kim, ...",
+      "authors": "Eun Kwang Lee, Ratul Kumar Baruah, Jung Woo Leem, Woohyun Park, Bong Hoon Kim, Augustine Urbas, Zahyun Ku, Young L Kim, Muhammad Ashraful Alam, Chi Hwan Lee",
       "venue": "Advanced Materials 32 (46), 2004456, 2020",
       "citations": 39,
       "year": 2020,
@@ -449,7 +449,7 @@
     },
     {
       "title": "Two-dimensional polyaniline-2D C3N structures",
-      "authors": "J Mahmood, EK Lee, M Jung, D Shin, HJ Choi, JM Seo, SM Jung, D Kim, ...",
+      "authors": "Javeed Mahmood, Eun Kwang Lee, Minbok Jung, Dongbin Shin, Hyun-Jung Choi, Jung-Min Seo, Sun-Min Jung, Dongwook Kim, Feng Li, Myoung Soo Lah, Noejung Park, Hyun-Joon Shin, Joon Hak Oh, Jong-Beom Baek",
       "venue": "Materials Research Society, 2016",
       "citations": null,
       "year": 2016,
@@ -465,7 +465,7 @@
     },
     {
       "title": "Two-dimensional C3N structures",
-      "authors": "J Mahmood, EK Lee, M Jung, D Shin, HJ Choi, JM Seo, SM Jung, D Kim, ...",
+      "authors": "Javeed Mahmood, Eun Kwang Lee, Minbok Jung, Dongbin Shin, Hyung-Jung Choi, Jeong-Min Seo, Sun-Min Jung, Dongwook Kim, Feng Li, Myoung Soo Lah, Noejung Park, Hyun-Joon Shin, Joon Hak Oh, Jong-Beom Baek",
       "venue": "The Polymer Society of Korea, 2016 Fall Meeting 41 (2), 958-958, 2016",
       "citations": null,
       "year": 2016,
@@ -489,7 +489,7 @@
     },
     {
       "title": "Nitrogenated two-dimensional structure, a semiconducting covalent-organic framework",
-      "authors": "J Mahmood, EK Lee, M Jung, D Shin, IY Jeon, SM Jung, HJ Choi, JM Seo, ...",
+      "authors": "Javeed Mahmood, Eun Kwang Lee, Minbok Jung, Dongbin Shin, In-Yup Jeon, Sun-Min Jung, Hyun-Jung Choi, Jeong-Min Seo, Seo-Yoon Bae, So-Dam Sohn, Noejung Park, Joon Hak Oh, Hyung-Joon Shin, Jong-Beom Baek",
       "venue": "The Polymer Society of Korea, 2016 Fall Meeting 41 (2), 954-954, 2016",
       "citations": null,
       "year": 2016,
@@ -497,7 +497,7 @@
     },
     {
       "title": "Two-dimensional polyaniline (C3N) from carbonized organic single crystals in solid state",
-      "authors": "J Mahmood*, EK Lee*, M Jung, D Shin, HJ Choi, JM Seo, SM Jung, D Kim, ...",
+      "authors": "Javeed Mahmood*, Eun Kwang Lee*, Minbok Jung, Dongbin Shin, Hyun-Jung Choi, Jeong-Min Seo, Sun-Min Jung, Dongwook Kim, Feng Li, Myoung Soo Lah, Noejung Park, Hyung-Joon Shin, Joon Hak Oh, Jong-Beom Baek",
       "venue": "Proceedings of the National Academy of Sciences 113 (27), 7414-7419, 2016",
       "citations": 495,
       "year": 2016,
@@ -561,7 +561,7 @@
     },
     {
       "title": "Nitrogenated holey two-dimensional structures",
-      "authors": "J Mahmood, EK Lee, M Jung, D Shin, IY Jeon, SM Jung, HJ Choi, JM Seo, ...",
+      "authors": "Javeed Mahmood, Eun Kwang Lee, Minbok Jung, Dongbin Shin, In-Yup Jeon, Sun-Min Jung, Hyun-Jung Choi, Jeong-Min Seo, Seo-Yoon Bae, So-Dam Sohn, Noejung Park, Joon Hak Oh, Hyung-Joon Shin, Jong-Beom Baek",
       "venue": "Nature communications 6 (1), 6486, 2015",
       "citations": 1163,
       "year": 2015,
@@ -593,7 +593,7 @@
     },
     {
       "title": "Direct Solvothermal Synthesis of B/N‐Doped Graphene",
-      "authors": "SM Jung, EK Lee, M Choi, D Shin, IY Jeon, JM Seo, HY Jeong, N Park, ...",
+      "authors": "Sun‐Min Jung, Eun Kwang Lee, Min Choi, Dongbin Shin, In‐Yup Jeon, Jeong‐Min Seo, Hu Young Jeong, Noejung Park, Joon Hak Oh, Jong‐Beom Baek",
       "venue": "Angewandte Chemie 126 (9), 2430-2433, 2014",
       "citations": 96,
       "year": 2014,
@@ -625,7 +625,7 @@
     },
     {
       "title": "Nitrogen-doped graphene nanoplatelets from simple solution edge-functionalization for n-type field-effect transistors",
-      "authors": "DW Chang*, EK Lee*, EY Park, H Yu, HJ Choi, IY Jeon, GJ Sohn, D Shin, ...",
+      "authors": "Dong Wook Chang*, Eun Kwang Lee*, Eun Yeob Park, Hojeong Yu, Hyun-Jung Choi, In-Yup Jeon, Gyung-Joo Sohn, Dongbin Shin, Noejung Park, Joon Hak Oh, Liming Dai, Jong-Beom Baek",
       "venue": "Journal of the American Chemical Society 135 (24), 8981-8988, 2013",
       "citations": 151,
       "year": 2013,
@@ -665,7 +665,7 @@
     },
     {
       "title": "Adaptive VOC Detection with Alcohol Dehydrogenase-Integrated Gelatin Transistors",
-      "authors": "HN Kim, JH Song, HR Lim, W Choi, SH Lee, GH Hong, S Oh, H Yoo, ...",
+      "authors": "Han Na Kim, Jeong Hye Song, Hyo-Ryoung Lim, Wangmyung Choi, Sang Hyun Lee, Gun Ho Hong, Seyong Oh, Hocheon Yoo, Eun Kwang Lee",
       "venue": "Available at SSRN 5464167, 0",
       "citations": null,
       "year": 0,
@@ -681,7 +681,7 @@
     },
     {
       "title": "Nitrogenated holey two-dimensional structures, Nat. Commun. 6 (2015) 6486",
-      "authors": "J Mahmood, EK Lee, M Jung, D Shin, IY Jeon, SM Jung, HJ Choi, JM Seo, ...",
+      "authors": "J Mahmood, EK Lee, M Jung, D Shin, IY Jeon, SM Jung, HJ Choi, JM Seo, SY Bae, SD Sohn, N Park, JH Oh, HJ Shin, JB Baek",
       "venue": "",
       "citations": 15,
       "year": 0,
