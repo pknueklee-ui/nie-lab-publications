@@ -1,193 +1,105 @@
 """
-NIE LAB Publication Auto-Updater
-Scrapes Google Scholar profile and generates a styled HTML page
-for embedding in Google Sites.
+NIE LAB Publication Auto-Updater (SerpAPI version)
+Uses SerpAPI to fetch Google Scholar data reliably.
 
 Usage: python update_publications.py
+Requires: SERPAPI_KEY environment variable
 """
 
 import json
-import re
+import os
 import time
 import urllib.request
 import urllib.parse
-from html.parser import HTMLParser
 from datetime import datetime
 
 # ============================================
 # 설정 (Configuration)
 # ============================================
-SCHOLAR_ID = "_ME8VaYAAAAJ"  # 교수님의 Google Scholar Profile ID
+SCHOLAR_ID = "_ME8VaYAAAAJ"  # Google Scholar Profile ID
 OUTPUT_HTML = "docs/index.html"
 OUTPUT_JSON = "docs/publications.json"
-MAX_PAPERS = 200  # 최대 가져올 논문 수
+MAX_PAPERS = 999
+
+# SerpAPI key from environment variable
+SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "")
 
 
-class ScholarParser(HTMLParser):
-    """Simple HTML parser to extract publication data from Google Scholar."""
+def serpapi_request(params):
+    """Make a request to SerpAPI."""
+    params["api_key"] = SERPAPI_KEY
+    params["engine"] = "google_scholar_author"
+    url = f"https://serpapi.com/search?{urllib.parse.urlencode(params)}"
     
-    def __init__(self):
-        super().__init__()
-        self.publications = []
-        self.current_pub = {}
-        self.capture = None
-        self.in_pub_row = False
-        self.tag_stack = []
-        self.current_data = ""
-        
-    def handle_starttag(self, tag, attrs):
-        attrs_dict = dict(attrs)
-        cls = attrs_dict.get("class", "")
-        
-        if tag == "tr" and "gsc_a_tr" in cls:
-            self.in_pub_row = True
-            self.current_pub = {}
-            
-        if self.in_pub_row:
-            if tag == "a" and "gsc_a_at" in cls:
-                self.capture = "title"
-                self.current_data = ""
-                self.current_pub["link"] = "https://scholar.google.com" + attrs_dict.get("href", "")
-            elif "gsc_a_at" in cls and tag == "td":
-                self.capture = "title_cell"
-            elif tag == "span" and "gs_gray" in cls:
-                self.capture = "gray"
-                self.current_data = ""
-            elif tag == "a" and "gsc_a_ac" in cls:
-                self.capture = "citations"
-                self.current_data = ""
-            elif tag == "span" and "gsc_a_h" in cls:
-                self.capture = "year"
-                self.current_data = ""
-                
-    def handle_endtag(self, tag):
-        if self.capture == "title" and tag == "a":
-            self.current_pub["title"] = self.current_data.strip()
-            self.capture = None
-        elif self.capture == "gray" and tag == "span":
-            if "authors" not in self.current_pub:
-                self.current_pub["authors"] = self.current_data.strip()
-            else:
-                self.current_pub["venue"] = self.current_data.strip()
-            self.capture = None
-        elif self.capture == "citations" and tag == "a":
-            cite_text = self.current_data.strip()
-            self.current_pub["citations"] = int(cite_text) if cite_text.isdigit() else 0
-            self.capture = None
-        elif self.capture == "year" and tag == "span":
-            year_text = self.current_data.strip()
-            self.current_pub["year"] = int(year_text) if year_text.isdigit() else 0
-            self.capture = None
-            
-        if tag == "tr" and self.in_pub_row:
-            self.in_pub_row = False
-            if self.current_pub.get("title"):
-                self.publications.append(self.current_pub)
-                
-    def handle_data(self, data):
-        if self.capture:
-            self.current_data += data
-
-
-class ScholarStatsParser(HTMLParser):
-    """Parse citation stats from the profile page."""
-    
-    def __init__(self):
-        super().__init__()
-        self.stats = {}
-        self.in_stats_table = False
-        self.capture = None
-        self.current_data = ""
-        self.stat_values = []
-        
-    def handle_starttag(self, tag, attrs):
-        attrs_dict = dict(attrs)
-        cls = attrs_dict.get("class", "")
-        
-        if tag == "td" and "gsc_rsb_std" in cls:
-            self.capture = "stat_value"
-            self.current_data = ""
-            
-    def handle_endtag(self, tag):
-        if self.capture == "stat_value" and tag == "td":
-            self.stat_values.append(self.current_data.strip())
-            self.capture = None
-            
-    def handle_data(self, data):
-        if self.capture:
-            self.current_data += data
-
-
-def fetch_scholar_page(scholar_id, start=0):
-    """Fetch a page from Google Scholar profile."""
-    base_url = "https://scholar.google.com/citations"
-    params = {
-        "user": scholar_id,
-        "hl": "en",
-        "cstart": start,
-        "pagesize": 100,
-        "sortby": "pubdate"
-    }
-    url = f"{base_url}?{urllib.parse.urlencode(params)}"
-    
-    req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept-Language": "en-US,en;q=0.9"
-    })
-    
+    req = urllib.request.Request(url)
     with urllib.request.urlopen(req, timeout=30) as response:
-        return response.read().decode("utf-8", errors="replace")
+        return json.loads(response.read().decode("utf-8"))
 
 
-def get_publications(scholar_id, max_papers=200):
-    """Get all publications from Google Scholar profile."""
-    all_pubs = []
-    start = 0
+def get_author_info():
+    """Get author citation stats."""
+    params = {
+        "author_id": SCHOLAR_ID,
+        "hl": "en"
+    }
+    data = serpapi_request(params)
     
-    while len(all_pubs) < max_papers:
-        print(f"  Fetching publications starting from {start}...")
-        html = fetch_scholar_page(scholar_id, start)
-        
-        parser = ScholarParser()
-        parser.feed(html)
-        
-        if not parser.publications:
-            break
-            
-        all_pubs.extend(parser.publications)
-        
-        if len(parser.publications) < 100:
-            break
-            
-        start += 100
-        time.sleep(2)  # Rate limiting
-    
-    return all_pubs[:max_papers]
-
-
-def get_stats(scholar_id):
-    """Get citation statistics from profile."""
-    html = fetch_scholar_page(scholar_id)
-    parser = ScholarStatsParser()
-    parser.feed(html)
-    
+    cited_by = data.get("cited_by", {}).get("table", [])
     stats = {
         "total_citations": 0,
         "h_index": 0,
         "i10_index": 0
     }
     
-    # Google Scholar stats table: [All citations, Recent citations, All h-index, Recent h-index, All i10, Recent i10]
-    values = parser.stat_values
-    if len(values) >= 6:
-        try:
-            stats["total_citations"] = int(values[0]) if values[0] else 0
-            stats["h_index"] = int(values[2]) if values[2] else 0
-            stats["i10_index"] = int(values[4]) if values[4] else 0
-        except (ValueError, IndexError):
-            pass
+    for row in cited_by:
+        if "citations" in row:
+            stats["total_citations"] = row["citations"].get("all", 0)
+        elif "h_index" in row:
+            stats["h_index"] = row["h_index"].get("all", 0)
+        elif "i10_index" in row:
+            stats["i10_index"] = row["i10_index"].get("all", 0)
     
     return stats
+
+
+def get_publications(max_papers=200):
+    """Get all publications from Google Scholar profile via SerpAPI."""
+    all_pubs = []
+    start = 0
+    
+    while len(all_pubs) < max_papers:
+        print(f"  Fetching publications starting from {start}...")
+        params = {
+            "author_id": SCHOLAR_ID,
+            "hl": "en",
+            "start": start,
+            "num": 100,
+            "sort": "pubdate"
+        }
+        data = serpapi_request(params)
+        articles = data.get("articles", [])
+        
+        if not articles:
+            break
+        
+        for article in articles:
+            pub = {
+                "title": article.get("title", ""),
+                "authors": article.get("authors", ""),
+                "venue": article.get("publication", ""),
+                "citations": article.get("cited_by", {}).get("value", 0),
+                "year": int(article.get("year", "0")) if article.get("year", "").isdigit() else 0,
+                "link": article.get("link", "#")
+            }
+            all_pubs.append(pub)
+        
+        if len(articles) < 100:
+            break
+        
+        start += 100
+        time.sleep(1)
+    
+    return all_pubs[:max_papers]
 
 
 def generate_html(publications, stats):
@@ -298,7 +210,6 @@ body {{
     padding: 2rem 1.5rem;
 }}
 
-/* Stats Banner */
 .stats-banner {{
     display: flex;
     gap: 1px;
@@ -333,7 +244,6 @@ body {{
     margin-top: 0.2rem;
 }}
 
-/* Year Sections */
 .year-section {{
     margin-bottom: 2rem;
 }}
@@ -360,7 +270,6 @@ body {{
     font-weight: 500;
 }}
 
-/* Publication Items */
 .pub-item {{
     padding: 1rem 0;
     border-bottom: 1px solid var(--border);
@@ -426,7 +335,6 @@ body {{
     color: var(--cite-low);
 }}
 
-/* Footer */
 .footer {{
     text-align: center;
     padding: 1.5rem 0;
@@ -441,7 +349,6 @@ body {{
     text-decoration: none;
 }}
 
-/* Responsive */
 @media (max-width: 600px) {{
     .container {{
         padding: 1rem;
@@ -452,9 +359,6 @@ body {{
     .stat-label {{
         font-size: 0.65rem;
     }}
-    .stats-banner {{
-        flex-direction: row;
-    }}
     .stat-card {{
         padding: 0.8rem 0.5rem;
     }}
@@ -463,7 +367,6 @@ body {{
 </head>
 <body>
 <div class="container">
-    <!-- Citation Stats -->
     <div class="stats-banner">
         <div class="stat-card">
             <div class="stat-number">{total_pubs}</div>
@@ -483,12 +386,11 @@ body {{
         </div>
     </div>
 
-    <!-- Publications List -->
     {pub_sections}
 
     <div class="footer">
         Auto-updated from <a href="https://scholar.google.com/citations?user={SCHOLAR_ID}" target="_blank">Google Scholar</a> on {now}<br>
-        Powered by GitHub Actions
+        Powered by GitHub Actions + SerpAPI
     </div>
 </div>
 </body>
@@ -498,22 +400,25 @@ body {{
 
 
 def main():
+    if not SERPAPI_KEY:
+        print("ERROR: SERPAPI_KEY environment variable is not set!")
+        print("Please add your SerpAPI key as a GitHub repository secret.")
+        exit(1)
+    
     print("=" * 50)
     print("NIE LAB Publication Updater")
     print("=" * 50)
     
     print("\n[1/3] Fetching citation statistics...")
-    stats = get_stats(SCHOLAR_ID)
+    stats = get_author_info()
     print(f"  Citations: {stats['total_citations']}, h-index: {stats['h_index']}, i10-index: {stats['i10_index']}")
     
     print("\n[2/3] Fetching publications...")
-    publications = get_publications(SCHOLAR_ID, MAX_PAPERS)
+    publications = get_publications(MAX_PAPERS)
     print(f"  Found {len(publications)} publications")
     
     print("\n[3/3] Generating HTML...")
     
-    # Ensure output directory exists
-    import os
     os.makedirs("docs", exist_ok=True)
     
     # Save JSON data
