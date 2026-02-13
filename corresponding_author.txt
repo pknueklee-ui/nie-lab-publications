@@ -1,0 +1,38 @@
+# ============================================
+# NIE LAB - Corresponding Author Papers
+# (교신저자 논문 목록)
+# ============================================
+# 
+# 사용법:
+# - 한 줄에 논문 제목 하나 (부분 일치도 가능)
+# - #으로 시작하는 줄은 주석 (무시됨)
+# - 빈 줄은 무시됨
+# - 새 논문이 나오면 여기에 제목을 추가하면 됩니다
+#
+# ============================================
+
+# === 2026 ===
+Zwitterionic Fluoropolymer‑Engineered Synaptic Clefts Enhance Ion Dynamics in Neuromorphic OECTs
+Beyond Sight: Neuromorphic Synapses Triggered by Invisible Light
+Highly aligned polymer nanowire-based fin architecture for enhanced functionality of organic electrochemical transistors
+
+# === 2025 ===
+High‑Performance Synaptic Devices Based on Cross‑linked Organic Electrochemical Transistors with Dual Ion Gel
+Tailored phase separation in P3HT:PS blends for enhanced synaptic performance
+Ultraviolet Photodetector Fabrication with Low-Power Dissipation
+Fabrication of High-performance Organic Internal Gated Transistor Using Screen Printing
+Rejuvenating humidity-aged ultra-high nickel cathodes by targeted sodium doping
+Preparation of polyurethane sulfonate films as a motion sensing substrate
+
+# === 2024 ===
+n-Type Doping Effect of Anthracene-Based Cationic Dyes in Organic Electronics
+Enhancing Stability of n-Type Doped Organic Semiconductors
+Hybrid amphiphilic janus PDMS sponge enabling electrical sensing of organic solvents
+flexible transparent graphene/metal–organic framework complex hybrid chemical sensor
+
+# === 2023 ===
+Interconnection Technologies for Flexible Electronics
+
+# === 이전 ===
+Chemically Robust Ambipolar Organic Transistor Array Directly Patterned by Photolithography
+Flexible Organic Phototransistor Array with Enhanced Responsivity
