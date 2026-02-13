@@ -1,11 +1,12 @@
 """
-NIE LAB Publication Auto-Updater (v4)
-- SerpAPI for Google Scholar data (with full article details)
-- OpenAlex API for Journal Impact Factors
-- Full title and author list (no truncation)
+NIE LAB Publication Auto-Updater (v5 - OpenAlex)
+- 100% OpenAlex API (free, no paid API needed)
+- Full author names (no truncation)
+- Journal Impact Factor included
+- Citation counts included
 
 Usage: python update_publications.py
-Requires: SERPAPI_KEY environment variable
+Optional: OPENALEX_API_KEY environment variable (free, get from https://openalex.org/login)
 """
 
 import json
@@ -19,215 +20,171 @@ from datetime import datetime
 # ============================================
 # 설정 (Configuration)
 # ============================================
-SCHOLAR_ID = "_ME8VaYAAAAJ"
+ORCID = "0000-0001-5727-5716"  # 교수님 ORCID
+PI_NAME = "Eun Kwang Lee"  # Display name for highlighting
 OUTPUT_HTML = "docs/index.html"
 OUTPUT_JSON = "docs/publications.json"
-IF_CACHE_FILE = "docs/if_cache.json"
-MAX_PAPERS = 200
+MAILTO = "nielab@pknu.ac.kr"  # OpenAlex polite pool (faster responses)
 
-SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "")
+# Optional: OpenAlex API key for higher rate limits
+OPENALEX_API_KEY = os.environ.get("OPENALEX_API_KEY", "")
 
 
 # ============================================
-# SerpAPI functions
+# OpenAlex API
 # ============================================
-def serpapi_request(params):
-    params["api_key"] = SERPAPI_KEY
-    url = f"https://serpapi.com/search?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url)
-    with urllib.request.urlopen(req, timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
+def openalex_request(endpoint, params=None):
+    """Make a request to OpenAlex API."""
+    if params is None:
+        params = {}
+    params["mailto"] = MAILTO
+    if OPENALEX_API_KEY:
+        params["api_key"] = OPENALEX_API_KEY
+    
+    url = f"https://api.openalex.org/{endpoint}?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={"User-Agent": f"NIELab/1.0 (mailto:{MAILTO})"})
+    
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"    Retry {attempt + 1}: {e}")
+                time.sleep(2)
+            else:
+                raise
 
 
 def get_author_info():
-    params = {"engine": "google_scholar_author", "author_id": SCHOLAR_ID, "hl": "en"}
-    data = serpapi_request(params)
-    cited_by = data.get("cited_by", {}).get("table", [])
-    stats = {"total_citations": 0, "h_index": 0, "i10_index": 0}
-    for row in cited_by:
-        if "citations" in row:
-            stats["total_citations"] = row["citations"].get("all", 0)
-        elif "h_index" in row:
-            stats["h_index"] = row["h_index"].get("all", 0)
-        elif "i10_index" in row:
-            stats["i10_index"] = row["i10_index"].get("all", 0)
+    """Get author profile and stats from OpenAlex."""
+    data = openalex_request(f"authors/orcid:{ORCID}")
+    
+    stats = {
+        "total_citations": data.get("cited_by_count", 0),
+        "works_count": data.get("works_count", 0),
+        "h_index": data.get("summary_stats", {}).get("h_index", 0),
+        "i10_index": data.get("summary_stats", {}).get("i10_index", 0),
+        "author_id": data.get("id", ""),
+        "display_name": data.get("display_name", PI_NAME),
+    }
     return stats
 
 
-def get_article_detail(citation_id):
-    """Fetch full details of a single article (complete title, all authors)."""
-    try:
-        params = {
-            "engine": "google_scholar_author",
-            "author_id": SCHOLAR_ID,
-            "citation_id": citation_id,
-            "hl": "en",
-            "view_op": "view_citation"
-        }
-        data = serpapi_request(params)
-        return data.get("citation", {})
-    except Exception as e:
-        print(f"    Warning: Could not fetch detail: {e}")
-        return {}
-
-
-def get_publications(max_papers=200):
-    """Get all publications with full details."""
+def get_publications():
+    """Get all publications by the author from OpenAlex."""
     all_pubs = []
-    start = 0
+    cursor = "*"
+    page = 1
     
-    # Step 1: Get basic list
-    while len(all_pubs) < max_papers:
-        print(f"  Fetching publication list starting from {start}...")
+    while True:
+        print(f"  Fetching page {page}...")
         params = {
-            "engine": "google_scholar_author",
-            "author_id": SCHOLAR_ID, "hl": "en",
-            "start": start, "num": 100, "sort": "pubdate"
+            "filter": f"author.orcid:{ORCID}",
+            "sort": "publication_date:desc",
+            "per_page": 100,
+            "cursor": cursor,
+            "select": "id,title,authorships,primary_location,publication_date,publication_year,cited_by_count,doi,type"
         }
-        data = serpapi_request(params)
-        articles = data.get("articles", [])
-        if not articles:
-            break
-        all_pubs.extend(articles)
-        if len(articles) < 100:
-            break
-        start += 100
-        time.sleep(1)
-    
-    all_pubs = all_pubs[:max_papers]
-    
-    # Step 2: Fetch full details for articles with truncated info
-    print(f"\n  Fetching full details for {len(all_pubs)} articles...")
-    detailed_pubs = []
-    
-    for i, article in enumerate(all_pubs):
-        title = article.get("title", "")
-        authors = article.get("authors", "")
-        citation_id = article.get("citation_id", "")
-        
-        # Check if title or authors are truncated (ends with ...)
-        needs_detail = ("…" in title or "..." in title or 
-                       "…" in authors or "..." in authors)
-        
-        if needs_detail and citation_id:
-            detail = get_article_detail(citation_id)
-            if detail:
-                full_title = detail.get("title", title)
-                # Authors in detail come as list or string
-                full_authors = detail.get("authors", authors)
-                if isinstance(full_authors, list):
-                    full_authors = ", ".join(full_authors)
-                
-                # Get publication info
-                pub_info = detail.get("publication", article.get("publication", ""))
-                
-                pub = {
-                    "title": full_title,
-                    "authors": full_authors,
-                    "venue": pub_info,
-                    "citations": article.get("cited_by", {}).get("value", 0),
-                    "year": int(article.get("year", "0")) if article.get("year", "").isdigit() else 0,
-                    "link": article.get("link", "#")
-                }
-            else:
-                pub = {
-                    "title": title,
-                    "authors": authors,
-                    "venue": article.get("publication", ""),
-                    "citations": article.get("cited_by", {}).get("value", 0),
-                    "year": int(article.get("year", "0")) if article.get("year", "").isdigit() else 0,
-                    "link": article.get("link", "#")
-                }
-            time.sleep(0.5)  # Rate limiting
-        else:
-            pub = {
-                "title": title,
-                "authors": authors,
-                "venue": article.get("publication", ""),
-                "citations": article.get("cited_by", {}).get("value", 0),
-                "year": int(article.get("year", "0")) if article.get("year", "").isdigit() else 0,
-                "link": article.get("link", "#")
-            }
-        
-        detailed_pubs.append(pub)
-        
-        if (i + 1) % 20 == 0:
-            print(f"    Processed {i + 1}/{len(all_pubs)}...")
-    
-    return detailed_pubs
-
-
-# ============================================
-# OpenAlex API for Impact Factor
-# ============================================
-def load_if_cache():
-    if os.path.exists(IF_CACHE_FILE):
-        with open(IF_CACHE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
-
-
-def save_if_cache(cache):
-    with open(IF_CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
-
-
-def normalize_journal_name(name):
-    if not name:
-        return ""
-    cleaned = re.split(r'\s+\d+\s*[\(,]', name)[0].strip()
-    cleaned = cleaned.rstrip('.,; ')
-    return cleaned.lower()
-
-
-def get_journal_if(journal_name, cache):
-    normalized = normalize_journal_name(journal_name)
-    if not normalized:
-        return None
-    if normalized in cache:
-        return cache[normalized]
-    try:
-        query = urllib.parse.quote(normalized)
-        url = f"https://api.openalex.org/sources?search={query}&per_page=1&mailto=nielab@pknu.ac.kr"
-        req = urllib.request.Request(url, headers={"User-Agent": "NIELab/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as response:
-            data = json.loads(response.read().decode("utf-8"))
+        data = openalex_request("works", params)
         results = data.get("results", [])
-        if results:
-            summary = results[0].get("summary_stats", {})
+        
+        if not results:
+            break
+        
+        for work in results:
+            # Get full author list
+            authors = []
+            pi_position = None
+            for i, authorship in enumerate(work.get("authorships", [])):
+                author_name = authorship.get("author", {}).get("display_name", "")
+                if author_name:
+                    authors.append(author_name)
+                # Check if this is the PI
+                author_orcid = authorship.get("author", {}).get("orcid", "")
+                if author_orcid and ORCID in author_orcid:
+                    pi_position = i
+            
+            # Get journal/source info
+            location = work.get("primary_location", {}) or {}
+            source = location.get("source", {}) or {}
+            journal_name = source.get("display_name", "")
+            source_id = source.get("id", "")
+            
+            # Get DOI link
+            doi = work.get("doi", "")
+            link = doi if doi else ""
+            
+            pub = {
+                "title": work.get("title", "Untitled"),
+                "authors": ", ".join(authors),
+                "authors_list": authors,
+                "venue": journal_name,
+                "source_id": source_id,
+                "year": work.get("publication_year", 0) or 0,
+                "date": work.get("publication_date", ""),
+                "citations": work.get("cited_by_count", 0) or 0,
+                "doi": doi,
+                "link": link,
+                "type": work.get("type", ""),
+                "pi_position": pi_position,
+                "openalex_id": work.get("id", ""),
+            }
+            all_pubs.append(pub)
+        
+        # Pagination
+        meta = data.get("meta", {})
+        cursor = meta.get("next_cursor")
+        if not cursor:
+            break
+        page += 1
+        time.sleep(0.2)
+    
+    return all_pubs
+
+
+def get_impact_factors(publications):
+    """Get Impact Factors for all unique journals."""
+    # Collect unique source IDs
+    source_ids = set()
+    for pub in publications:
+        sid = pub.get("source_id", "")
+        if sid:
+            source_ids.add(sid)
+    
+    print(f"  Looking up IF for {len(source_ids)} journals...")
+    if_map = {}
+    
+    for i, source_id in enumerate(source_ids):
+        try:
+            # Extract the short ID
+            short_id = source_id.split("/")[-1] if "/" in source_id else source_id
+            data = openalex_request(f"sources/{short_id}", {"select": "id,display_name,summary_stats"})
+            
+            summary = data.get("summary_stats", {})
             impact = summary.get("2yr_mean_citedness")
             if impact is not None:
                 impact = round(impact, 1)
-            cache[normalized] = impact
-            return impact
-        cache[normalized] = None
-        return None
-    except Exception as e:
-        print(f"    Warning: Could not fetch IF for '{normalized}': {e}")
-        return None
-
-
-def get_all_impact_factors(publications):
-    cache = load_if_cache()
-    journals = set()
-    for pub in publications:
-        normalized = normalize_journal_name(pub.get("venue", ""))
-        if normalized and normalized not in cache:
-            journals.add(normalized)
-    print(f"  Looking up IF for {len(journals)} new journals...")
-    for i, journal in enumerate(journals):
-        get_journal_if(journal, cache)
-        if (i + 1) % 10 == 0:
-            print(f"    Processed {i + 1}/{len(journals)}...")
-        time.sleep(0.2)
-    save_if_cache(cache)
-    return cache
+            
+            if_map[source_id] = {
+                "name": data.get("display_name", ""),
+                "if": impact
+            }
+        except Exception as e:
+            print(f"    Warning: Could not fetch IF for {source_id}: {e}")
+        
+        if (i + 1) % 20 == 0:
+            print(f"    Processed {i + 1}/{len(source_ids)}...")
+        time.sleep(0.1)
+    
+    return if_map
 
 
 # ============================================
 # HTML Generation
 # ============================================
-def generate_html(publications, stats, if_cache):
+def generate_html(publications, stats, if_map):
     pubs_by_year = {}
     for pub in publications:
         year = pub.get("year", 0)
@@ -253,20 +210,23 @@ def generate_html(publications, stats, if_cache):
         
         items = ""
         for pub in pubs_sorted:
-            title = pub.get("title", "Untitled")
+            title = pub.get("title", "Untitled") or "Untitled"
             authors = pub.get("authors", "")
             venue = pub.get("venue", "")
             citations = pub.get("citations") or 0
-            link = pub.get("link", "#")
+            link = pub.get("link", "")
+            source_id = pub.get("source_id", "")
             
             # Highlight PI name
-            authors_html = authors.replace("EK Lee", "<strong>EK Lee</strong>")
-            authors_html = authors_html.replace("E Lee", "<strong>E Lee</strong>")
-            authors_html = authors_html.replace("E.K. Lee", "<strong>E.K. Lee</strong>")
+            authors_html = authors
+            for name_variant in [PI_NAME, "Eun Kwang Lee", "E. Lee", "E.K. Lee", "EK Lee"]:
+                if name_variant in authors_html:
+                    authors_html = authors_html.replace(name_variant, f"<strong>{name_variant}</strong>")
+                    break
             
             # Impact Factor
-            normalized_venue = normalize_journal_name(venue)
-            impact_factor = if_cache.get(normalized_venue)
+            if_info = if_map.get(source_id, {})
+            impact_factor = if_info.get("if")
             venue_display = venue
             if impact_factor and impact_factor > 0:
                 venue_display = f'{venue} <span class="if-badge">IF: {impact_factor}</span>'
@@ -277,9 +237,12 @@ def generate_html(publications, stats, if_cache):
                 badge_class = "cite-high" if citations >= 50 else ("cite-med" if citations >= 10 else "cite-low")
                 citation_badge = f'<span class="cite-badge {badge_class}">{citations} citations</span>'
             
+            # Link
+            title_html = f'<a href="{link}" target="_blank" rel="noopener">{title}</a>' if link else title
+            
             items += f"""
             <div class="pub-item">
-                <div class="pub-title"><a href="{link}" target="_blank" rel="noopener">{title}</a></div>
+                <div class="pub-title">{title_html}</div>
                 <div class="pub-authors">{authors_html}</div>
                 <div class="pub-venue">{venue_display}</div>
                 {citation_badge}
@@ -404,12 +367,15 @@ body {{
     border-bottom: none;
 }}
 
-.pub-title a {{
+.pub-title {{
     font-weight: 600;
     font-size: 0.95rem;
+    line-height: 1.4;
+}}
+
+.pub-title a {{
     color: var(--text-primary);
     text-decoration: none;
-    line-height: 1.4;
     transition: color 0.2s;
 }}
 
@@ -527,8 +493,10 @@ body {{
     {pub_sections}
 
     <div class="footer">
-        Auto-updated from <a href="https://scholar.google.com/citations?user={SCHOLAR_ID}" target="_blank">Google Scholar</a> on {now}<br>
-        Impact Factors from <a href="https://openalex.org" target="_blank">OpenAlex</a> | Powered by GitHub Actions
+        Auto-updated from <a href="https://openalex.org" target="_blank">OpenAlex</a> on {now}<br>
+        <a href="https://scholar.google.com/citations?user=_ME8VaYAAAAJ" target="_blank">Google Scholar Profile</a> |
+        <a href="https://orcid.org/{ORCID}" target="_blank">ORCID</a> |
+        Powered by GitHub Actions
     </div>
 </div>
 </body>
@@ -538,33 +506,30 @@ body {{
 
 
 def main():
-    if not SERPAPI_KEY:
-        print("ERROR: SERPAPI_KEY environment variable is not set!")
-        exit(1)
-    
     print("=" * 50)
-    print("NIE LAB Publication Updater v4")
+    print("NIE LAB Publication Updater v5 (OpenAlex)")
     print("=" * 50)
     
-    print("\n[1/4] Fetching citation statistics...")
+    print("\n[1/4] Fetching author profile...")
     stats = get_author_info()
-    print(f"  Citations: {stats['total_citations']}, h-index: {stats['h_index']}, i10-index: {stats['i10_index']}")
+    print(f"  {stats['display_name']}: {stats['total_citations']} citations, h-index: {stats['h_index']}, i10-index: {stats['i10_index']}")
     
-    print("\n[2/4] Fetching publications (with full details)...")
-    publications = get_publications(MAX_PAPERS)
+    print("\n[2/4] Fetching publications...")
+    publications = get_publications()
     print(f"  Found {len(publications)} publications")
     
-    print("\n[3/4] Fetching Impact Factors from OpenAlex...")
-    if_cache = get_all_impact_factors(publications)
-    matched = sum(1 for v in if_cache.values() if v and v > 0)
+    print("\n[3/4] Fetching Impact Factors...")
+    if_map = get_impact_factors(publications)
+    matched = sum(1 for v in if_map.values() if v.get("if") and v["if"] > 0)
     print(f"  IF data available for {matched} journals")
     
     print("\n[4/4] Generating HTML...")
     os.makedirs("docs", exist_ok=True)
     
+    # Save JSON
     data = {
         "updated": datetime.utcnow().isoformat(),
-        "scholar_id": SCHOLAR_ID,
+        "orcid": ORCID,
         "stats": stats,
         "publications": publications
     }
@@ -572,12 +537,13 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"  Saved JSON to {OUTPUT_JSON}")
     
-    html = generate_html(publications, stats, if_cache)
+    # Generate HTML
+    html = generate_html(publications, stats, if_map)
     with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"  Saved HTML to {OUTPUT_HTML}")
     
-    print("\n✅ Done! Publication page updated successfully.")
+    print(f"\n✅ Done! {len(publications)} publications updated successfully.")
 
 
 if __name__ == "__main__":
