@@ -23,6 +23,8 @@ jobs:
           python-version: '3.11'
       
       - name: Run publication updater
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python update_publications.py
       
       - name: Commit and push changes
