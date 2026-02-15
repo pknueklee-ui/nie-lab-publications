@@ -1,11 +1,11 @@
 {
-  "updated": "2026-02-13T01:53:43.370332",
+  "updated": "2026-02-15T05:13:17.326602",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3254,
+    "total_citations": 3257,
     "works_count": 92,
     "h_index": 21,
-    "i10_index": 36,
+    "i10_index": 37,
     "author_id": "https://openalex.org/A5082185335",
     "display_name": "Eun Kwang Lee"
   },
@@ -618,7 +618,7 @@
       "source_id": "https://openalex.org/S164001016",
       "year": 2024,
       "date": "2024-10-17",
-      "citations": 13,
+      "citations": 14,
       "doi": "https://doi.org/10.1021/acsami.4c11731",
       "link": "https://doi.org/10.1021/acsami.4c11731",
       "type": "article",
@@ -1584,7 +1584,7 @@
       "source_id": "https://openalex.org/S64187185",
       "year": 2015,
       "date": "2015-03-06",
-      "citations": 1120,
+      "citations": 1121,
       "doi": "https://doi.org/10.1038/ncomms7486",
       "link": "https://doi.org/10.1038/ncomms7486",
       "type": "article",
