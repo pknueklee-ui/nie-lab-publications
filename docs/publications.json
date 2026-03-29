@@ -1,11 +1,11 @@
 {
-  "updated": "2026-03-22T02:32:57.374290",
+  "updated": "2026-03-29T02:43:05.985221",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3300,
-    "works_count": 93,
+    "total_citations": 3331,
+    "works_count": 95,
     "h_index": 22,
-    "i10_index": 37,
+    "i10_index": 38,
     "author_id": "https://openalex.org/A5082185335",
     "display_name": "Eun Kwang Lee"
   },
@@ -59,12 +59,12 @@
     },
     {
       "title": "Enhanced Near-Infrared Photonic Synaptic Devices for Unimodal Associative Learning via PVDF-HFP Trap Effects and IEICO-4F Sensitization",
-      "authors": "Min Ju Jung, Yonghee Kim, Wen-Ya Lee, Jun‐Woo Park, Eun Kwang Lee",
+      "authors": "Min Ju Jung, Yonghee Kim, Wen-Ya Lee, Kang-Jun Baeg, Eun Kwang Lee",
       "authors_list": [
         "Min Ju Jung",
         "Yonghee Kim",
         "Wen-Ya Lee",
-        "Jun‐Woo Park",
+        "Kang-Jun Baeg",
         "Eun Kwang Lee"
       ],
       "venue": "SSRN Electronic Journal",
@@ -222,7 +222,7 @@
       "source_id": "https://openalex.org/S5407036554",
       "year": 2025,
       "date": "2025-07-24",
-      "citations": 2,
+      "citations": 3,
       "doi": "https://doi.org/10.1002/aidi.202500053",
       "link": "https://doi.org/10.1002/aidi.202500053",
       "type": "article",
@@ -381,13 +381,13 @@
     },
     {
       "title": "Highly Efficient <i>n</i>‐Type Doped Single‐Crystalline Perylene Diimide Microwires via Solution Processing for High‐Performance Photosensors and Photo‐Neuromorphic Devices",
-      "authors": "Yonghee Kim, Min Ju Jung, Sangwook Lee, Joon Hak Oh, Eun Kwang Lee, Eun Kwang Lee",
+      "authors": "Yonghee Kim, Hye Won Lee, Min Ju Jung, Sangwook Lee, Joon Hak Oh, Eun Kwang Lee",
       "authors_list": [
         "Yonghee Kim",
+        "Hye Won Lee",
         "Min Ju Jung",
         "Sangwook Lee",
         "Joon Hak Oh",
-        "Eun Kwang Lee",
         "Eun Kwang Lee"
       ],
       "venue": "Advanced Materials Technologies",
@@ -398,7 +398,7 @@
       "doi": "https://doi.org/10.1002/admt.202500681",
       "link": "https://doi.org/10.1002/admt.202500681",
       "type": "article",
-      "pi_position": 4,
+      "pi_position": 5,
       "openalex_id": "https://openalex.org/W4411088060"
     },
     {
@@ -424,6 +424,26 @@
       "openalex_id": "https://openalex.org/W4409286942"
     },
     {
+      "title": "Kinetic swelling-driven PTG interlayers for enhanced crystallinity and charge transport in polymer OECTs",
+      "authors": "Jiaxin Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
+      "authors_list": [
+        "Jiaxin Song",
+        "Yong Hee Kim",
+        "Hocheon Yoo",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Journal of Materials Chemistry C",
+      "source_id": "https://openalex.org/S2500738039",
+      "year": 2025,
+      "date": "2025-01-01",
+      "citations": 1,
+      "doi": "https://doi.org/10.1039/d5tc01098e",
+      "link": "https://doi.org/10.1039/d5tc01098e",
+      "type": "article",
+      "pi_position": 3,
+      "openalex_id": "https://openalex.org/W4412410362"
+    },
+    {
       "title": "Improved neuromorphic functionality in organic electrochemical transistors using crosslinked-polyvinyl alcohol for fast ion transport and its application to Pavlovian transistors",
       "authors": "Seung Hwan Song, Jiaxin Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
@@ -443,26 +463,6 @@
       "type": "article",
       "pi_position": 4,
       "openalex_id": "https://openalex.org/W4412186846"
-    },
-    {
-      "title": "Kinetic swelling-driven PTG interlayers for enhanced crystallinity and charge transport in polymer OECTs",
-      "authors": "Jiaxin Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Jiaxin Song",
-        "Yong Hee Kim",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "Journal of Materials Chemistry C",
-      "source_id": "https://openalex.org/S2500738039",
-      "year": 2025,
-      "date": "2025-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.1039/d5tc01098e",
-      "link": "https://doi.org/10.1039/d5tc01098e",
-      "type": "article",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W4412410362"
     },
     {
       "title": "Adaptive VOC Detection with Alcohol Dehydrogenase-Integrated Gelatin Transistors",
@@ -624,7 +624,7 @@
     },
     {
       "title": "Controlling Long-Term Plasticity in Neuromorphic Computing Through Modulation of Ferroelectric Polarization",
-      "authors": "Donghwa Lee, Junho Sung, Minhui Kim, Na-Hyeon Kim, Seonggyu Lee, Heeyoung Lee, Eun Kwang Lee, Dongyeong Jeong, Eunho Lee, Eunho Lee, Eunho Lee",
+      "authors": "Donghwa Lee, Junho Sung, Minhui Kim, Na-Hyeon Kim, Seonggyu Lee, Heeyoung Lee, Eun Kwang Lee, Eun Kwang Lee, Dongyeong Jeong, Eunho Lee, Eunho Lee",
       "authors_list": [
         "Donghwa Lee",
         "Junho Sung",
@@ -633,8 +633,8 @@
         "Seonggyu Lee",
         "Heeyoung Lee",
         "Eun Kwang Lee",
+        "Eun Kwang Lee",
         "Dongyeong Jeong",
-        "Eunho Lee",
         "Eunho Lee",
         "Eunho Lee"
       ],
@@ -646,7 +646,7 @@
       "doi": "https://doi.org/10.1021/acsami.4c11731",
       "link": "https://doi.org/10.1021/acsami.4c11731",
       "type": "article",
-      "pi_position": 6,
+      "pi_position": 7,
       "openalex_id": "https://openalex.org/W4403513330"
     },
     {
@@ -722,7 +722,7 @@
       "source_id": "https://openalex.org/S2765038284",
       "year": 2024,
       "date": "2024-08-01",
-      "citations": 14,
+      "citations": 15,
       "doi": "https://doi.org/10.1002/admt.202400478",
       "link": "https://doi.org/10.1002/admt.202400478",
       "type": "article",
@@ -969,7 +969,7 @@
       "source_id": "https://openalex.org/S96702057",
       "year": 2023,
       "date": "2023-05-27",
-      "citations": 46,
+      "citations": 47,
       "doi": "https://doi.org/10.3390/mi14061131",
       "link": "https://doi.org/10.3390/mi14061131",
       "type": "review",
@@ -1043,14 +1043,14 @@
     },
     {
       "title": "Transparent and Flexible Vibration Sensor Based on a Wheel-Shaped Hybrid Thin Membrane",
-      "authors": "Siyoung Lee, Eun Kwang Lee, Eunho Lee, Geun Yeol Bae, Eunho Lee, Geun Bae",
+      "authors": "Siyoung Lee, Eun Kwang Lee, Eun Kwang Lee, Eunho Lee, Eunho Lee, Geun Yeol Bae",
       "authors_list": [
         "Siyoung Lee",
         "Eun Kwang Lee",
+        "Eun Kwang Lee",
         "Eunho Lee",
-        "Geun Yeol Bae",
         "Eunho Lee",
-        "Geun Bae"
+        "Geun Yeol Bae"
       ],
       "venue": "Micromachines",
       "source_id": "https://openalex.org/S96702057",
@@ -1060,7 +1060,7 @@
       "doi": "https://doi.org/10.3390/mi12101246",
       "link": "https://doi.org/10.3390/mi12101246",
       "type": "article",
-      "pi_position": 1,
+      "pi_position": 2,
       "openalex_id": "https://openalex.org/W3205056098"
     },
     {
@@ -1608,7 +1608,7 @@
       "source_id": "https://openalex.org/S64187185",
       "year": 2015,
       "date": "2015-03-06",
-      "citations": 1127,
+      "citations": 1129,
       "doi": "https://doi.org/10.1038/ncomms7486",
       "link": "https://doi.org/10.1038/ncomms7486",
       "type": "article",
@@ -1674,7 +1674,7 @@
       "source_id": "https://openalex.org/S67393510",
       "year": 2014,
       "date": "2014-02-20",
-      "citations": 71,
+      "citations": 72,
       "doi": "https://doi.org/10.1002/anie.201310260",
       "link": "https://doi.org/10.1002/anie.201310260",
       "type": "article",
