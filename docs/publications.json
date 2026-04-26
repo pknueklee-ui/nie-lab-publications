@@ -1,15 +1,37 @@
 {
-  "updated": "2026-04-19T02:56:15.462226",
+  "updated": "2026-04-26T03:19:10.764879",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3337,
-    "works_count": 94,
+    "total_citations": 3341,
+    "works_count": 92,
     "h_index": 22,
     "i10_index": 37,
     "author_id": "https://openalex.org/A5082185335",
     "display_name": "Eun Kwang Lee"
   },
   "publications": [
+    {
+      "title": "A Highly Light-Responsive Detachable Photosensor with Integrated Semiconductor-Electrolyte Layers for Enhanced Photoresponse",
+      "authors": "Soo Hyun Lee, Y Kim, Won‐Woo Lee, Seong Bin Woo, Hocheon Yoo, Eun Kwang Lee",
+      "authors_list": [
+        "Soo Hyun Lee",
+        "Y Kim",
+        "Won‐Woo Lee",
+        "Seong Bin Woo",
+        "Hocheon Yoo",
+        "Eun Kwang Lee"
+      ],
+      "venue": "ACS Applied Materials & Interfaces",
+      "source_id": "https://openalex.org/S164001016",
+      "year": 2026,
+      "date": "2026-04-21",
+      "citations": 0,
+      "doi": "https://doi.org/10.1021/acsami.6c00764",
+      "link": "https://doi.org/10.1021/acsami.6c00764",
+      "type": "article",
+      "pi_position": 5,
+      "openalex_id": "https://openalex.org/W7155028789"
+    },
     {
       "title": "Surface dipole chaos: Mixed SAM-engineered Bi2S3 for unclonable hardware security",
       "authors": "Taehyun Park, Heebeen Shin, Han-Koo Lee, Jeong Hye Song, Eun Kwang Lee, Young‐Joon Kim, Dongjin Lee, Hocheon Yoo",
@@ -120,11 +142,11 @@
     },
     {
       "title": "Zwitterionic Fluoropolymer‐Engineered Synaptic Clefts Enhance Ion Dynamics in Neuromorphic OECTs",
-      "authors": "Ji Seon Kim, Young Je Kwon, Jonghan Song, Yoon Ah Im, Dong Han, Ho Jin Jung, Kie Yong Cho, Eun Kwang Lee",
+      "authors": "Ji Seon Kim, Young Je Kwon, Jung‐Hye Song, Yoon Ah Im, Dong Han, Ho Jin Jung, Kie Yong Cho, Eun Kwang Lee",
       "authors_list": [
         "Ji Seon Kim",
         "Young Je Kwon",
-        "Jonghan Song",
+        "Jung‐Hye Song",
         "Yoon Ah Im",
         "Dong Han",
         "Ho Jin Jung",
@@ -166,31 +188,6 @@
       "openalex_id": "https://openalex.org/W4415275482"
     },
     {
-      "title": "Detachable and Reusable: Reinforced π‐Ion Film for Modular Synaptic Reservoir Computing (Adv. Mater. 41/2025)",
-      "authors": "Gyu Won Woo, Chang Min Lee, Won‐Woo Lee, Min Ju Jung, Seung Min Lee, Eun Kwang Lee, Hocheon Yoo, Yong Hee Kim, Eun Kwang Lee",
-      "authors_list": [
-        "Gyu Won Woo",
-        "Chang Min Lee",
-        "Won‐Woo Lee",
-        "Min Ju Jung",
-        "Seung Min Lee",
-        "Eun Kwang Lee",
-        "Hocheon Yoo",
-        "Yong Hee Kim",
-        "Eun Kwang Lee"
-      ],
-      "venue": "Advanced Materials",
-      "source_id": "https://openalex.org/S99352657",
-      "year": 2025,
-      "date": "2025-10-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.1002/adma.70826",
-      "link": "https://doi.org/10.1002/adma.70826",
-      "type": "article",
-      "pi_position": 5,
-      "openalex_id": "https://openalex.org/W4415275559"
-    },
-    {
       "title": "Enhanced Photocurrent of Electrodeposited Copper Oxide Films Doped with Solution-Processable Organic Cationic Dye as a Dopant",
       "authors": "Hye Won Lee, Jiyoul Lee, Eun Kwang Lee",
       "authors_list": [
@@ -222,7 +219,7 @@
       "source_id": "https://openalex.org/S5407036554",
       "year": 2025,
       "date": "2025-07-24",
-      "citations": 3,
+      "citations": 4,
       "doi": "https://doi.org/10.1002/aidi.202500053",
       "link": "https://doi.org/10.1002/aidi.202500053",
       "type": "article",
@@ -231,10 +228,10 @@
     },
     {
       "title": "Tailored phase separation in P3HT:PS blends for enhanced synaptic performance in organic electrochemical transistors",
-      "authors": "Seung Hwan Chung, Jiaxin Song, Won Woo Lee, Hocheon Yoo, Hyo‐Ryoung Lim, Eun Kwang Lee",
+      "authors": "Seung Hwan Chung, Jeong Hye Song, Won Woo Lee, Hocheon Yoo, Hyo‐Ryoung Lim, Eun Kwang Lee",
       "authors_list": [
         "Seung Hwan Chung",
-        "Jiaxin Song",
+        "Jeong Hye Song",
         "Won Woo Lee",
         "Hocheon Yoo",
         "Hyo‐Ryoung Lim",
@@ -253,10 +250,10 @@
     },
     {
       "title": "Author response for \"Improved Neuromorphic Functionality in Organic Electrochemical Transistors Using Crosslinked-Polyvinyl alcohol for Fast Ion Transport and its Application to Pavlovian Transistors\"",
-      "authors": "Seung Hwan Song, Jiaxin Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
+      "authors": "Seung Hwan Song, Jeong Hye Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
         "Seung Hwan Song",
-        "Jiaxin Song",
+        "Jeong Hye Song",
         "Jisoo Park",
         "Hocheon Yoo",
         "Eun Kwang Lee"
@@ -274,14 +271,14 @@
     },
     {
       "title": "Detachable and Reusable: Reinforced π‐Ion Film for Modular Synaptic Reservoir Computing",
-      "authors": "Gyu Won Woo, Chang Min Lee, Won‐Woo Lee, Min Ju Jung, Seung Min Lee, Eun Kwang Lee, Hocheon Yoo, Yong Hee Kim, Eun Kwang Lee",
+      "authors": "Gyu Won Woo, Chang Min Lee, Won‐Woo Lee, Min Ju Jung, Seung Min Lee, Hye Won Lee, Hocheon Yoo, Yong Hee Kim, Eun Kwang Lee",
       "authors_list": [
         "Gyu Won Woo",
         "Chang Min Lee",
         "Won‐Woo Lee",
         "Min Ju Jung",
         "Seung Min Lee",
-        "Eun Kwang Lee",
+        "Hye Won Lee",
         "Hocheon Yoo",
         "Yong Hee Kim",
         "Eun Kwang Lee"
@@ -290,7 +287,7 @@
       "source_id": "https://openalex.org/S99352657",
       "year": 2025,
       "date": "2025-06-27",
-      "citations": 5,
+      "citations": 6,
       "doi": "https://doi.org/10.1002/adma.202506729",
       "link": "https://doi.org/10.1002/adma.202506729",
       "type": "article",
@@ -341,9 +338,9 @@
     },
     {
       "title": "Author response for \"Kinetic Swelling-Driven PTG Interlayers for Enhanced Crystallinity and Charge Transport in Polymer OECTs\"",
-      "authors": "Jiaxin Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
+      "authors": "Jeong Hye Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
-        "Jiaxin Song",
+        "Jeong Hye Song",
         "Yong Hee Kim",
         "Hocheon Yoo",
         "Eun Kwang Lee"
@@ -361,9 +358,9 @@
     },
     {
       "title": "Author response for \"Kinetic Swelling-Driven PTG Interlayers for Enhanced Crystallinity and Charge Transport in Polymer OECTs\"",
-      "authors": "Jiaxin Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
+      "authors": "Jeong Hye Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
-        "Jiaxin Song",
+        "Jeong Hye Song",
         "Yong Hee Kim",
         "Hocheon Yoo",
         "Eun Kwang Lee"
@@ -403,9 +400,9 @@
     },
     {
       "title": "Preparation of polyurethane sulfonate films as a motion sensing substrate with the compliant coating of PEDOT:PSS",
-      "authors": "Sunmin Park, Seung Min Lee, Young Je Kwon, Kie Yong Cho, Soaram Kim, Eun Kwang Lee",
+      "authors": "Sung Moon Park, Seung Min Lee, Young Je Kwon, Kie Yong Cho, Soaram Kim, Eun Kwang Lee",
       "authors_list": [
-        "Sunmin Park",
+        "Sung Moon Park",
         "Seung Min Lee",
         "Young Je Kwon",
         "Kie Yong Cho",
@@ -424,10 +421,31 @@
       "openalex_id": "https://openalex.org/W4409286942"
     },
     {
-      "title": "Kinetic swelling-driven PTG interlayers for enhanced crystallinity and charge transport in polymer OECTs",
-      "authors": "Jiaxin Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
+      "title": "Improved neuromorphic functionality in organic electrochemical transistors using crosslinked-polyvinyl alcohol for fast ion transport and its application to Pavlovian transistors",
+      "authors": "Seung Hwan Song, Jeong Hye Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
-        "Jiaxin Song",
+        "Seung Hwan Song",
+        "Jeong Hye Song",
+        "Jisoo Park",
+        "Hocheon Yoo",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Journal of Materials Chemistry C",
+      "source_id": "https://openalex.org/S2500738039",
+      "year": 2025,
+      "date": "2025-01-01",
+      "citations": 1,
+      "doi": "https://doi.org/10.1039/d5tc01475a",
+      "link": "https://doi.org/10.1039/d5tc01475a",
+      "type": "article",
+      "pi_position": 4,
+      "openalex_id": "https://openalex.org/W4412186846"
+    },
+    {
+      "title": "Kinetic swelling-driven PTG interlayers for enhanced crystallinity and charge transport in polymer OECTs",
+      "authors": "Jeong Hye Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
+      "authors_list": [
+        "Jeong Hye Song",
         "Yong Hee Kim",
         "Hocheon Yoo",
         "Eun Kwang Lee"
@@ -444,36 +462,15 @@
       "openalex_id": "https://openalex.org/W4412410362"
     },
     {
-      "title": "Improved neuromorphic functionality in organic electrochemical transistors using crosslinked-polyvinyl alcohol for fast ion transport and its application to Pavlovian transistors",
-      "authors": "Seung Hwan Song, Jiaxin Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Seung Hwan Song",
-        "Jiaxin Song",
-        "Jisoo Park",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "Journal of Materials Chemistry C",
-      "source_id": "https://openalex.org/S2500738039",
-      "year": 2025,
-      "date": "2025-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.1039/d5tc01475a",
-      "link": "https://doi.org/10.1039/d5tc01475a",
-      "type": "article",
-      "pi_position": 4,
-      "openalex_id": "https://openalex.org/W4412186846"
-    },
-    {
       "title": "Adaptive VOC Detection with Alcohol Dehydrogenase-Integrated Gelatin Transistors",
-      "authors": "Han Na Kim, Jiaxin Song, Hyo‐Ryoung Lim, Wangmyung Choi, Sang Hyun Lee, Geun Hee Hong, Seyong Oh, Hocheon Yoo, Eun Kwang Lee",
+      "authors": "Han Na Kim, Jeong Hye Song, Hyo‐Ryoung Lim, Wangmyung Choi, Sang Hyun Lee, Gun Ho Hong, Seyong Oh, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
         "Han Na Kim",
-        "Jiaxin Song",
+        "Jeong Hye Song",
         "Hyo‐Ryoung Lim",
         "Wangmyung Choi",
         "Sang Hyun Lee",
-        "Geun Hee Hong",
+        "Gun Ho Hong",
         "Seyong Oh",
         "Hocheon Yoo",
         "Eun Kwang Lee"
@@ -552,7 +549,7 @@
       "source_id": "https://openalex.org/S194131194",
       "year": 2024,
       "date": "2024-12-03",
-      "citations": 4,
+      "citations": 5,
       "doi": "https://doi.org/10.1007/s13233-024-00341-y",
       "link": "https://doi.org/10.1007/s13233-024-00341-y",
       "type": "article",
@@ -604,9 +601,9 @@
     },
     {
       "title": "Enhancement of Synaptic Behavior in Organic Electrochemical Transistors via the Introduction of Layer‐by‐Layer Grown Metal‐Organic Framework",
-      "authors": "Sunmin Park, Yousang Won, Joon Hak Oh, Eun Kwang Lee",
+      "authors": "Sung Moon Park, Yousang Won, Joon Hak Oh, Eun Kwang Lee",
       "authors_list": [
-        "Sunmin Park",
+        "Sung Moon Park",
         "Yousang Won",
         "Joon Hak Oh",
         "Eun Kwang Lee"
@@ -642,7 +639,7 @@
       "source_id": "https://openalex.org/S164001016",
       "year": 2024,
       "date": "2024-10-17",
-      "citations": 16,
+      "citations": 17,
       "doi": "https://doi.org/10.1021/acsami.4c11731",
       "link": "https://doi.org/10.1021/acsami.4c11731",
       "type": "article",
@@ -930,7 +927,7 @@
       "source_id": "https://openalex.org/S94619837",
       "year": 2023,
       "date": "2023-10-19",
-      "citations": 39,
+      "citations": 40,
       "doi": "https://doi.org/10.1002/smll.202306468",
       "link": "https://doi.org/10.1002/smll.202306468",
       "type": "review",
@@ -1094,7 +1091,7 @@
       "source_id": "https://openalex.org/S164001016",
       "year": 2021,
       "date": "2021-05-20",
-      "citations": 15,
+      "citations": 16,
       "doi": "https://doi.org/10.1021/acsami.1c02880",
       "link": "https://doi.org/10.1021/acsami.1c02880",
       "type": "article",
@@ -1512,7 +1509,7 @@
       "source_id": "https://openalex.org/S125754415",
       "year": 2016,
       "date": "2016-06-16",
-      "citations": 474,
+      "citations": 475,
       "doi": "https://doi.org/10.1073/pnas.1605318113",
       "link": "https://doi.org/10.1073/pnas.1605318113",
       "type": "article",
@@ -1557,7 +1554,7 @@
       "source_id": "https://openalex.org/S135204980",
       "year": 2016,
       "date": "2016-02-08",
-      "citations": 118,
+      "citations": 119,
       "doi": "https://doi.org/10.1002/adfm.201503230",
       "link": "https://doi.org/10.1002/adfm.201503230",
       "type": "article",
@@ -1608,7 +1605,7 @@
       "source_id": "https://openalex.org/S64187185",
       "year": 2015,
       "date": "2015-03-06",
-      "citations": 1135,
+      "citations": 1137,
       "doi": "https://doi.org/10.1038/ncomms7486",
       "link": "https://doi.org/10.1038/ncomms7486",
       "type": "article",
