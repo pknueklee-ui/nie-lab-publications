@@ -1,9 +1,9 @@
 {
-  "updated": "2026-04-26T03:19:10.764879",
+  "updated": "2026-05-03T03:31:31.910726",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3341,
-    "works_count": 92,
+    "total_citations": 3344,
+    "works_count": 103,
     "h_index": 22,
     "i10_index": 37,
     "author_id": "https://openalex.org/A5082185335",
@@ -33,6 +33,142 @@
       "openalex_id": "https://openalex.org/W7155028789"
     },
     {
+      "title": "Zwitterion-Modified PMMA Interlayers for Reliable Dual-Mode Organic Neuromorphic Devices",
+      "authors": "Seong Bin Woo, Yonghee Kim, Yu Kyeong Kim, Soo Hyun Lee, Do‐Hoon Hwang, Eun Kwang Lee",
+      "authors_list": [
+        "Seong Bin Woo",
+        "Yonghee Kim",
+        "Yu Kyeong Kim",
+        "Soo Hyun Lee",
+        "Do‐Hoon Hwang",
+        "Eun Kwang Lee"
+      ],
+      "venue": "ACS Applied Materials & Interfaces",
+      "source_id": "https://openalex.org/S164001016",
+      "year": 2026,
+      "date": "2026-03-23",
+      "citations": 0,
+      "doi": "https://doi.org/10.1021/acsami.6c02631",
+      "link": "https://doi.org/10.1021/acsami.6c02631",
+      "type": "article",
+      "pi_position": 5,
+      "openalex_id": "https://openalex.org/W7140117978"
+    },
+    {
+      "title": "Adaptive VOC detection with alcohol dehydrogenase-integrated gelatin transistors",
+      "authors": "Han Na Kim, Jeong Hye Song, Hyo‐Ryoung Lim, Wangmyung Choi, Sang Hyun Lee, Gun Ho Hong, Seyong Oh, Hocheon Yoo, Eun Kwang Lee",
+      "authors_list": [
+        "Han Na Kim",
+        "Jeong Hye Song",
+        "Hyo‐Ryoung Lim",
+        "Wangmyung Choi",
+        "Sang Hyun Lee",
+        "Gun Ho Hong",
+        "Seyong Oh",
+        "Hocheon Yoo",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Synthetic Metals",
+      "source_id": "https://openalex.org/S171076697",
+      "year": 2026,
+      "date": "2026-03-21",
+      "citations": 0,
+      "doi": "https://doi.org/10.1016/j.synthmet.2026.118142",
+      "link": "https://doi.org/10.1016/j.synthmet.2026.118142",
+      "type": "article",
+      "pi_position": 8,
+      "openalex_id": "https://openalex.org/W7139981354"
+    },
+    {
+      "title": "Simple fabrication of PEDOT: PSS-based microfiber organic electrochemical transistors for neuromorphic memory applications",
+      "authors": "Seung Min Lee, Yonghee Kim, G. E. Woo, Junsu Kim, Yong Hyun Kim, Yun‐Seok Jun, Eun Kwang Lee",
+      "authors_list": [
+        "Seung Min Lee",
+        "Yonghee Kim",
+        "G. E. Woo",
+        "Junsu Kim",
+        "Yong Hyun Kim",
+        "Yun‐Seok Jun",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Macromolecular Research",
+      "source_id": "https://openalex.org/S194131194",
+      "year": 2026,
+      "date": "2026-03-19",
+      "citations": 0,
+      "doi": "https://doi.org/10.1007/s13233-026-00504-z",
+      "link": "https://doi.org/10.1007/s13233-026-00504-z",
+      "type": "article",
+      "pi_position": 6,
+      "openalex_id": "https://openalex.org/W7138857947"
+    },
+    {
+      "title": "Enhanced near-infrared photonic synaptic devices for unimodal associative learning via PVDF-HFP trap effects and IEICO-4F sensitization",
+      "authors": "Min Ju Jung, Yonghee Kim, W. Y. Lee, Kang-Jun Baeg, Eun Kwang Lee",
+      "authors_list": [
+        "Min Ju Jung",
+        "Yonghee Kim",
+        "W. Y. Lee",
+        "Kang-Jun Baeg",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Materials Science in Semiconductor Processing",
+      "source_id": "https://openalex.org/S82126420",
+      "year": 2026,
+      "date": "2026-03-19",
+      "citations": 0,
+      "doi": "https://doi.org/10.1016/j.mssp.2026.110610",
+      "link": "https://doi.org/10.1016/j.mssp.2026.110610",
+      "type": "article",
+      "pi_position": 4,
+      "openalex_id": "https://openalex.org/W7139051791"
+    },
+    {
+      "title": "Mechanistic elucidation of solution-processable n-type doping via rhodamine B for photoresponsive neuromorphic organic semiconductors",
+      "authors": "Yonghee Kim, Minjung Kim, Seong Bin Woo, Minseo Kim, Jeong‐Mo Choi, Eun Kwang Lee",
+      "authors_list": [
+        "Yonghee Kim",
+        "Minjung Kim",
+        "Seong Bin Woo",
+        "Minseo Kim",
+        "Jeong‐Mo Choi",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Macromolecular Research",
+      "source_id": "https://openalex.org/S194131194",
+      "year": 2026,
+      "date": "2026-03-10",
+      "citations": 0,
+      "doi": "https://doi.org/10.1007/s13233-025-00489-1",
+      "link": "https://doi.org/10.1007/s13233-025-00489-1",
+      "type": "article",
+      "pi_position": 5,
+      "openalex_id": "https://openalex.org/W7134960200"
+    },
+    {
+      "title": "Schottky Barrier Engineering in <i>n</i> ‐Type Organic Source‐Gated Transistors Enabling High Conductance",
+      "authors": "Yonghee Kim, Jae Won Lee, Jae Won Lee, Wonbeen Jeong, Eun Kwang Lee, Jiyoul Lee, Jiyoul Lee",
+      "authors_list": [
+        "Yonghee Kim",
+        "Jae Won Lee",
+        "Jae Won Lee",
+        "Wonbeen Jeong",
+        "Eun Kwang Lee",
+        "Jiyoul Lee",
+        "Jiyoul Lee"
+      ],
+      "venue": "Advanced Materials Technologies",
+      "source_id": "https://openalex.org/S2765038284",
+      "year": 2026,
+      "date": "2026-03-05",
+      "citations": 0,
+      "doi": "https://doi.org/10.1002/admt.202502637",
+      "link": "https://doi.org/10.1002/admt.202502637",
+      "type": "article",
+      "pi_position": 4,
+      "openalex_id": "https://openalex.org/W7134192784"
+    },
+    {
       "title": "Surface dipole chaos: Mixed SAM-engineered Bi2S3 for unclonable hardware security",
       "authors": "Taehyun Park, Heebeen Shin, Han-Koo Lee, Jeong Hye Song, Eun Kwang Lee, Young‐Joon Kim, Dongjin Lee, Hocheon Yoo",
       "authors_list": [
@@ -55,6 +191,49 @@
       "type": "article",
       "pi_position": 4,
       "openalex_id": "https://openalex.org/W7134954141"
+    },
+    {
+      "title": "Organic neuromorphic electronics powering intelligent sensory and edge computing systems",
+      "authors": "Seungjun Woo, Minji Chung, Hyun Woo Song, Seoyoung Kim, Eun Kwang Lee, Joon Hak Oh",
+      "authors_list": [
+        "Seungjun Woo",
+        "Minji Chung",
+        "Hyun Woo Song",
+        "Seoyoung Kim",
+        "Eun Kwang Lee",
+        "Joon Hak Oh"
+      ],
+      "venue": "InfoMat",
+      "source_id": "https://openalex.org/S4210212605",
+      "year": 2026,
+      "date": "2026-02-02",
+      "citations": 0,
+      "doi": "https://doi.org/10.1002/inf2.70118",
+      "link": "https://doi.org/10.1002/inf2.70118",
+      "type": "article",
+      "pi_position": 4,
+      "openalex_id": "https://openalex.org/W7127163955"
+    },
+    {
+      "title": "Beyond Sight: Neuromorphic Synapses Triggered by Invisible Light",
+      "authors": "Jisoo Park, Kyounghoon Kim, Eun Kwang Lee, Young‐Joon Kim, Hocheon Yoo",
+      "authors_list": [
+        "Jisoo Park",
+        "Kyounghoon Kim",
+        "Eun Kwang Lee",
+        "Young‐Joon Kim",
+        "Hocheon Yoo"
+      ],
+      "venue": "Small",
+      "source_id": "https://openalex.org/S94619837",
+      "year": 2026,
+      "date": "2026-01-08",
+      "citations": 0,
+      "doi": "https://doi.org/10.1002/smll.202510540",
+      "link": "https://doi.org/10.1002/smll.202510540",
+      "type": "article",
+      "pi_position": 2,
+      "openalex_id": "https://openalex.org/W7118885086"
     },
     {
       "title": "Fully Screen-Printed OECTs with Nafion/Chitosan-Coated Gates for Selective Cation Sensing and Scalable Production",
@@ -99,6 +278,29 @@
       "type": "preprint",
       "pi_position": 4,
       "openalex_id": "https://openalex.org/W7125581110"
+    },
+    {
+      "title": "Fully Solution-Processed Organic Electrochemical Transistors with Nafion/Chitosan-Coated Gates for Enhanced Cation Detection and Scalable Production",
+      "authors": "Ji Eun Seo, Yonghee Kim, Seungme Kang, Seung Hwan Chung, Jeong Hye Song, Hocheon Yoo, Eun Kwang Lee",
+      "authors_list": [
+        "Ji Eun Seo",
+        "Yonghee Kim",
+        "Seungme Kang",
+        "Seung Hwan Chung",
+        "Jeong Hye Song",
+        "Hocheon Yoo",
+        "Eun Kwang Lee"
+      ],
+      "venue": "SSRN Electronic Journal",
+      "source_id": "https://openalex.org/S4210172589",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": 0,
+      "doi": "https://doi.org/10.2139/ssrn.6276829",
+      "link": "https://doi.org/10.2139/ssrn.6276829",
+      "type": "preprint",
+      "pi_position": 6,
+      "openalex_id": "https://openalex.org/W7131780812"
     },
     {
       "title": "Advances in Organic In‐Sensor Neuromorphic Computing: from Material Mechanisms to Applications",
@@ -1581,6 +1783,26 @@
       "type": "article",
       "pi_position": 3,
       "openalex_id": "https://openalex.org/W2224492913"
+    },
+    {
+      "title": "Improvement of cis-Vaccenic Acid Production in Escherichia coli",
+      "authors": "Gyu Beom Jin, Hye Min Park, Eun Kwang Lee, Hyun Shik Yun",
+      "authors_list": [
+        "Gyu Beom Jin",
+        "Hye Min Park",
+        "Eun Kwang Lee",
+        "Hyun Shik Yun"
+      ],
+      "venue": "한국생물공학회 학술대회",
+      "source_id": "https://openalex.org/S4306495817",
+      "year": 2015,
+      "date": "2015-04-01",
+      "citations": 0,
+      "doi": null,
+      "link": "",
+      "type": "article",
+      "pi_position": 2,
+      "openalex_id": "https://openalex.org/W2405091485"
     },
     {
       "title": "Nitrogenated holey two-dimensional structures",
