@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-02T02:57:33.938261",
+  "updated": "2026-08-09T01:53:20.915523",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3449,
+    "total_citations": 3457,
     "works_count": 106,
     "h_index": 24,
     "i10_index": 38,
@@ -193,6 +193,27 @@
       "openalex_id": "https://openalex.org/W7139981354"
     },
     {
+      "title": "Enhanced near-infrared photonic synaptic devices for unimodal associative learning via PVDF-HFP trap effects and IEICO-4F sensitization",
+      "authors": "Min Ju Jung, Yonghee Kim, W. Y. Lee, Kang-Jun Baeg, Eun Kwang Lee",
+      "authors_list": [
+        "Min Ju Jung",
+        "Yonghee Kim",
+        "W. Y. Lee",
+        "Kang-Jun Baeg",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Materials Science in Semiconductor Processing",
+      "source_id": "https://openalex.org/S82126420",
+      "year": 2026,
+      "date": "2026-03-19",
+      "citations": 1,
+      "doi": "https://doi.org/10.1016/j.mssp.2026.110610",
+      "link": "https://doi.org/10.1016/j.mssp.2026.110610",
+      "type": "article",
+      "pi_position": 4,
+      "openalex_id": "https://openalex.org/W7139051791"
+    },
+    {
       "title": "Simple fabrication of PEDOT: PSS-based microfiber organic electrochemical transistors for neuromorphic memory applications",
       "authors": "Seung Min Lee, Yonghee Kim, G. E. Woo, Junsu Kim, Yong Hyun Kim, Yun‐Seok Jun, Eun Kwang Lee",
       "authors_list": [
@@ -214,27 +235,6 @@
       "type": "article",
       "pi_position": 6,
       "openalex_id": "https://openalex.org/W7138857947"
-    },
-    {
-      "title": "Enhanced near-infrared photonic synaptic devices for unimodal associative learning via PVDF-HFP trap effects and IEICO-4F sensitization",
-      "authors": "Min Ju Jung, Yonghee Kim, W. Y. Lee, Kang-Jun Baeg, Eun Kwang Lee",
-      "authors_list": [
-        "Min Ju Jung",
-        "Yonghee Kim",
-        "W. Y. Lee",
-        "Kang-Jun Baeg",
-        "Eun Kwang Lee"
-      ],
-      "venue": "Materials Science in Semiconductor Processing",
-      "source_id": "https://openalex.org/S82126420",
-      "year": 2026,
-      "date": "2026-03-19",
-      "citations": 0,
-      "doi": "https://doi.org/10.1016/j.mssp.2026.110610",
-      "link": "https://doi.org/10.1016/j.mssp.2026.110610",
-      "type": "article",
-      "pi_position": 4,
-      "openalex_id": "https://openalex.org/W7139051791"
     },
     {
       "title": "Mechanistic elucidation of solution-processable n-type doping via rhodamine B for photoresponsive neuromorphic organic semiconductors",
@@ -424,7 +424,7 @@
       "source_id": "https://openalex.org/S2500738039",
       "year": 2025,
       "date": "2025-11-17",
-      "citations": 0,
+      "citations": 2,
       "doi": "https://doi.org/10.1039/d5tc03449c",
       "link": "https://doi.org/10.1039/d5tc03449c",
       "type": "article",
@@ -712,6 +712,26 @@
       "openalex_id": "https://openalex.org/W4409286942"
     },
     {
+      "title": "Kinetic swelling-driven PTG interlayers for enhanced crystallinity and charge transport in polymer OECTs",
+      "authors": "Jeong Hye Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
+      "authors_list": [
+        "Jeong Hye Song",
+        "Yong Hee Kim",
+        "Hocheon Yoo",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Journal of Materials Chemistry C",
+      "source_id": "https://openalex.org/S2500738039",
+      "year": 2025,
+      "date": "2025-01-01",
+      "citations": 3,
+      "doi": "https://doi.org/10.1039/d5tc01098e",
+      "link": "https://doi.org/10.1039/d5tc01098e",
+      "type": "article",
+      "pi_position": 3,
+      "openalex_id": "https://openalex.org/W4412410362"
+    },
+    {
       "title": "Improved neuromorphic functionality in organic electrochemical transistors using crosslinked-polyvinyl alcohol for fast ion transport and its application to Pavlovian transistors",
       "authors": "Seung Hwan Song, Jeong Hye Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
@@ -733,24 +753,26 @@
       "openalex_id": "https://openalex.org/W4412186846"
     },
     {
-      "title": "Kinetic swelling-driven PTG interlayers for enhanced crystallinity and charge transport in polymer OECTs",
-      "authors": "Jeong Hye Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
+      "title": "Aligned conjugated polymer nanowires for enhanced performance in organic transistors and neuromorphic devices",
+      "authors": "Wonbeen Jeong, Jinsu Yoon, Yonghee Kim, Eun Kwang Lee, Young Tea Chun, Jiyoul Lee",
       "authors_list": [
-        "Jeong Hye Song",
-        "Yong Hee Kim",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
+        "Wonbeen Jeong",
+        "Jinsu Yoon",
+        "Yonghee Kim",
+        "Eun Kwang Lee",
+        "Young Tea Chun",
+        "Jiyoul Lee"
       ],
-      "venue": "Journal of Materials Chemistry C",
-      "source_id": "https://openalex.org/S2500738039",
+      "venue": "Nanoscale",
+      "source_id": "https://openalex.org/S23181512",
       "year": 2025,
       "date": "2025-01-01",
       "citations": 2,
-      "doi": "https://doi.org/10.1039/d5tc01098e",
-      "link": "https://doi.org/10.1039/d5tc01098e",
+      "doi": "https://doi.org/10.1039/d5nr03612g",
+      "link": "https://doi.org/10.1039/d5nr03612g",
       "type": "article",
       "pi_position": 3,
-      "openalex_id": "https://openalex.org/W4412410362"
+      "openalex_id": "https://openalex.org/W4415171304"
     },
     {
       "title": "Adaptive VOC Detection with Alcohol Dehydrogenase-Integrated Gelatin Transistors",
@@ -776,28 +798,6 @@
       "type": "preprint",
       "pi_position": 8,
       "openalex_id": "https://openalex.org/W4414170827"
-    },
-    {
-      "title": "Aligned conjugated polymer nanowires for enhanced performance in organic transistors and neuromorphic devices",
-      "authors": "Wonbeen Jeong, Jinsu Yoon, Yonghee Kim, Eun Kwang Lee, Young Tea Chun, Jiyoul Lee",
-      "authors_list": [
-        "Wonbeen Jeong",
-        "Jinsu Yoon",
-        "Yonghee Kim",
-        "Eun Kwang Lee",
-        "Young Tea Chun",
-        "Jiyoul Lee"
-      ],
-      "venue": "Nanoscale",
-      "source_id": "https://openalex.org/S23181512",
-      "year": 2025,
-      "date": "2025-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.1039/d5nr03612g",
-      "link": "https://doi.org/10.1039/d5nr03612g",
-      "type": "article",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W4415171304"
     },
     {
       "title": "A Self-powered Kinetic Motion Sensor Fabricated from Electrospun MOF-5/PVDF-TrFE Composites Piezoelectric Nanogenerators",
@@ -836,7 +836,7 @@
       "source_id": "https://openalex.org/S94619837",
       "year": 2024,
       "date": "2024-11-22",
-      "citations": 4,
+      "citations": 5,
       "doi": "https://doi.org/10.1002/smll.202408772",
       "link": "https://doi.org/10.1002/smll.202408772",
       "type": "article",
@@ -859,7 +859,7 @@
       "source_id": "https://openalex.org/S135204980",
       "year": 2024,
       "date": "2024-11-16",
-      "citations": 31,
+      "citations": 32,
       "doi": "https://doi.org/10.1002/adfm.202417539",
       "link": "https://doi.org/10.1002/adfm.202417539",
       "type": "article",
@@ -879,7 +879,7 @@
       "source_id": "https://openalex.org/S2765038284",
       "year": 2024,
       "date": "2024-11-12",
-      "citations": 12,
+      "citations": 13,
       "doi": "https://doi.org/10.1002/admt.202401316",
       "link": "https://doi.org/10.1002/admt.202401316",
       "type": "article",
@@ -906,7 +906,7 @@
       "source_id": "https://openalex.org/S164001016",
       "year": 2024,
       "date": "2024-10-17",
-      "citations": 24,
+      "citations": 25,
       "doi": "https://doi.org/10.1021/acsami.4c11731",
       "link": "https://doi.org/10.1021/acsami.4c11731",
       "type": "article",
@@ -1254,7 +1254,7 @@
       "source_id": "https://openalex.org/S123288148",
       "year": 2022,
       "date": "2022-07-21",
-      "citations": 37,
+      "citations": 38,
       "doi": "https://doi.org/10.3390/polym14142960",
       "link": "https://doi.org/10.3390/polym14142960",
       "type": "article",
@@ -1892,7 +1892,7 @@
       "source_id": "https://openalex.org/S64187185",
       "year": 2015,
       "date": "2015-03-06",
-      "citations": 1150,
+      "citations": 1151,
       "doi": "https://doi.org/10.1038/ncomms7486",
       "link": "https://doi.org/10.1038/ncomms7486",
       "type": "article",
