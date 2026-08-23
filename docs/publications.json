@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-16T01:25:12.767074",
+  "updated": "2026-08-23T01:26:57.661031",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3469,
+    "total_citations": 3475,
     "works_count": 107,
     "h_index": 24,
-    "i10_index": 38,
+    "i10_index": 39,
     "author_id": "https://openalex.org/A5082185335",
     "display_name": "Eun Kwang Lee"
   },
@@ -232,7 +232,7 @@
       "citations": 0,
       "doi": "https://doi.org/10.1007/s13233-026-00504-z",
       "link": "https://doi.org/10.1007/s13233-026-00504-z",
-      "type": "book-chapter",
+      "type": "article",
       "pi_position": 6,
       "openalex_id": "https://openalex.org/W7138857947"
     },
@@ -259,7 +259,7 @@
       "openalex_id": "https://openalex.org/W7134960200"
     },
     {
-      "title": "Schottky Barrier Engineering in <i>n</i> ‐Type Organic Source‐Gated Transistors Enabling High Conductance",
+      "title": "Schottky Barrier Engineering in n ‐Type Organic Source‐Gated Transistors Enabling High Conductance",
       "authors": "Yonghee Kim, Jae Won Lee, Jae Won Lee, Wonbeen Jeong, Eun Kwang Lee, Jiyoul Lee, Jiyoul Lee",
       "authors_list": [
         "Yonghee Kim",
@@ -342,7 +342,7 @@
       "source_id": "https://openalex.org/S94619837",
       "year": 2026,
       "date": "2026-01-08",
-      "citations": 1,
+      "citations": 2,
       "doi": "https://doi.org/10.1002/smll.202510540",
       "link": "https://doi.org/10.1002/smll.202510540",
       "type": "article",
@@ -429,7 +429,7 @@
       "source_id": "https://openalex.org/S5407036554",
       "year": 2025,
       "date": "2025-12-01",
-      "citations": 2,
+      "citations": 3,
       "doi": "https://doi.org/10.1002/aidi.70059",
       "link": "https://doi.org/10.1002/aidi.70059",
       "type": "article",
@@ -535,7 +535,7 @@
       "source_id": "https://openalex.org/S5407036554",
       "year": 2025,
       "date": "2025-07-24",
-      "citations": 9,
+      "citations": 10,
       "doi": "https://doi.org/10.1002/aidi.202500053",
       "link": "https://doi.org/10.1002/aidi.202500053",
       "type": "article",
@@ -603,7 +603,7 @@
       "source_id": "https://openalex.org/S99352657",
       "year": 2025,
       "date": "2025-06-27",
-      "citations": 7,
+      "citations": 8,
       "doi": "https://doi.org/10.1002/adma.202506729",
       "link": "https://doi.org/10.1002/adma.202506729",
       "type": "article",
@@ -693,7 +693,7 @@
       "openalex_id": "https://openalex.org/W4412436142"
     },
     {
-      "title": "Highly Efficient <i>n</i>‐Type Doped Single‐Crystalline Perylene Diimide Microwires via Solution Processing for High‐Performance Photosensors and Photo‐Neuromorphic Devices",
+      "title": "Highly Efficient n‐Type Doped Single‐Crystalline Perylene Diimide Microwires via Solution Processing for High‐Performance Photosensors and Photo‐Neuromorphic Devices",
       "authors": "Yonghee Kim, Hye Won Lee, Min Ju Jung, Sangwook Lee, Joon Hak Oh, Eun Kwang Lee",
       "authors_list": [
         "Yonghee Kim",
@@ -732,7 +732,7 @@
       "citations": 0,
       "doi": "https://doi.org/10.1007/s13233-025-00401-x",
       "link": "https://doi.org/10.1007/s13233-025-00401-x",
-      "type": "book-chapter",
+      "type": "article",
       "pi_position": 5,
       "openalex_id": "https://openalex.org/W4409286942"
     },
@@ -849,7 +849,7 @@
       "openalex_id": "https://openalex.org/W4404969291"
     },
     {
-      "title": "Ultraviolet Photodetector Fabrication with Low‐Power Dissipation Based on Organic Suboptimal Source‐Gated Transistor Architecture and MoO<sub>3</sub>‐Doped Pentacene",
+      "title": "Ultraviolet Photodetector Fabrication with Low‐Power Dissipation Based on Organic Suboptimal Source‐Gated Transistor Architecture and MoO3‐Doped Pentacene",
       "authors": "Min Ju Jung, Yonghee Kim, Kang‐Jun Baeg, Eun Kwang Lee",
       "authors_list": [
         "Min Ju Jung",
@@ -981,10 +981,9 @@
     },
     {
       "title": "Hybrid amphiphilic janus PDMS sponge enabling electrical sensing of organic solvents",
-      "authors": "Min Oh, Joon Hak Oh, Joon Hak Oh, Eun Kwang Lee",
+      "authors": "Min Oh, Joon Hak Oh, Eun Kwang Lee",
       "authors_list": [
         "Min Oh",
-        "Joon Hak Oh",
         "Joon Hak Oh",
         "Eun Kwang Lee"
       ],
@@ -996,7 +995,7 @@
       "doi": "https://doi.org/10.1016/j.sna.2024.115783",
       "link": "https://doi.org/10.1016/j.sna.2024.115783",
       "type": "article",
-      "pi_position": 3,
+      "pi_position": 2,
       "openalex_id": "https://openalex.org/W4401433489"
     },
     {
@@ -1040,10 +1039,9 @@
     },
     {
       "title": "Enhanced synaptic behavior of neuromorphic device based on organic electrochemical transistors by adding Aminosilane",
-      "authors": "Dae-Hee Kim, Jiyoul Lee, Jiyoul Lee, Yonghee Kim, Hocheon Yoo, Eun Kwang Lee",
+      "authors": "Dae-Hee Kim, Jiyoul Lee, Yonghee Kim, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
         "Dae-Hee Kim",
-        "Jiyoul Lee",
         "Jiyoul Lee",
         "Yonghee Kim",
         "Hocheon Yoo",
@@ -1057,7 +1055,7 @@
       "doi": "https://doi.org/10.1016/j.orgel.2024.107076",
       "link": "https://doi.org/10.1016/j.orgel.2024.107076",
       "type": "article",
-      "pi_position": 5,
+      "pi_position": 4,
       "openalex_id": "https://openalex.org/W4399040871"
     },
     {
@@ -1074,7 +1072,7 @@
       "source_id": "https://openalex.org/S2737737698",
       "year": 2024,
       "date": "2024-03-07",
-      "citations": 19,
+      "citations": 21,
       "doi": "https://doi.org/10.1002/advs.202309221",
       "link": "https://doi.org/10.1002/advs.202309221",
       "type": "article",
@@ -1779,7 +1777,7 @@
       "openalex_id": "https://openalex.org/W2593729021"
     },
     {
-      "title": "Two-dimensional polyaniline (C <sub>3</sub> N) from carbonized organic single crystals in solid state",
+      "title": "Two-dimensional polyaniline (C 3 N) from carbonized organic single crystals in solid state",
       "authors": "Javeed Mahmood, Eun Kwang Lee, Minbok Jung, Dongbin Shin, Hyun‐Jung Choi, Jeong‐Min Seo, Sun‐Min Jung, Dongwook Kim, Feng Li, Myoung Soo Lah, Noejung Park, Hyung‐Joon Shin, Joon Hak Oh, Jong‐Beom Baek",
       "authors_list": [
         "Javeed Mahmood",
@@ -2243,7 +2241,7 @@
       "openalex_id": "https://openalex.org/W2127911354"
     },
     {
-      "title": "Triaquatris(2,6-dinitrophenolato-κ<sup>2</sup><i>O</i><sup>1</sup>,<i>O</i><sup>2</sup>)yttrium(III)",
+      "title": "Triaquatris(2,6-dinitrophenolato-κ2O1,O2)yttrium(III)",
       "authors": "Hong Ryol Suh, Hyung Sock Suh, Sock Sung Yun, Eun Kwang Lee, Sung Kwon Kang",
       "authors_list": [
         "Hong Ryol Suh",
