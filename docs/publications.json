@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-23T01:26:57.661031",
+  "updated": "2026-08-30T04:20:09.891275",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3475,
+    "total_citations": 3480,
     "works_count": 107,
     "h_index": 24,
     "i10_index": 39,
@@ -321,7 +321,7 @@
       "source_id": "https://openalex.org/S4210212605",
       "year": 2026,
       "date": "2026-02-02",
-      "citations": 0,
+      "citations": 1,
       "doi": "https://doi.org/10.1002/inf2.70118",
       "link": "https://doi.org/10.1002/inf2.70118",
       "type": "article",
@@ -737,6 +737,27 @@
       "openalex_id": "https://openalex.org/W4409286942"
     },
     {
+      "title": "Improved neuromorphic functionality in organic electrochemical transistors using crosslinked-polyvinyl alcohol for fast ion transport and its application to Pavlovian transistors",
+      "authors": "Seung Hwan Song, Jeong Hye Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
+      "authors_list": [
+        "Seung Hwan Song",
+        "Jeong Hye Song",
+        "Jisoo Park",
+        "Hocheon Yoo",
+        "Eun Kwang Lee"
+      ],
+      "venue": "Journal of Materials Chemistry C",
+      "source_id": "https://openalex.org/S2500738039",
+      "year": 2025,
+      "date": "2025-01-01",
+      "citations": 3,
+      "doi": "https://doi.org/10.1039/d5tc01475a",
+      "link": "https://doi.org/10.1039/d5tc01475a",
+      "type": "article",
+      "pi_position": 4,
+      "openalex_id": "https://openalex.org/W4412186846"
+    },
+    {
       "title": "Kinetic swelling-driven PTG interlayers for enhanced crystallinity and charge transport in polymer OECTs",
       "authors": "Jeong Hye Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
@@ -755,27 +776,6 @@
       "type": "article",
       "pi_position": 3,
       "openalex_id": "https://openalex.org/W4412410362"
-    },
-    {
-      "title": "Improved neuromorphic functionality in organic electrochemical transistors using crosslinked-polyvinyl alcohol for fast ion transport and its application to Pavlovian transistors",
-      "authors": "Seung Hwan Song, Jeong Hye Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Seung Hwan Song",
-        "Jeong Hye Song",
-        "Jisoo Park",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "Journal of Materials Chemistry C",
-      "source_id": "https://openalex.org/S2500738039",
-      "year": 2025,
-      "date": "2025-01-01",
-      "citations": 2,
-      "doi": "https://doi.org/10.1039/d5tc01475a",
-      "link": "https://doi.org/10.1039/d5tc01475a",
-      "type": "article",
-      "pi_position": 4,
-      "openalex_id": "https://openalex.org/W4412186846"
     },
     {
       "title": "Aligned conjugated polymer nanowires for enhanced performance in organic transistors and neuromorphic devices",
@@ -1030,7 +1030,7 @@
       "source_id": "https://openalex.org/S130615878",
       "year": 2024,
       "date": "2024-06-25",
-      "citations": 16,
+      "citations": 17,
       "doi": "https://doi.org/10.1002/marc.202400165",
       "link": "https://doi.org/10.1002/marc.202400165",
       "type": "article",
@@ -1560,7 +1560,7 @@
       "source_id": "https://openalex.org/S135204980",
       "year": 2019,
       "date": "2019-03-25",
-      "citations": 41,
+      "citations": 42,
       "doi": "https://doi.org/10.1002/adfm.201900650",
       "link": "https://doi.org/10.1002/adfm.201900650",
       "type": "article",
@@ -1579,7 +1579,7 @@
       "source_id": "https://openalex.org/S171268996",
       "year": 2019,
       "date": "2019-03-18",
-      "citations": 68,
+      "citations": 69,
       "doi": "https://doi.org/10.1146/annurev-bioeng-060418-052315",
       "link": "https://doi.org/10.1146/annurev-bioeng-060418-052315",
       "type": "article",
@@ -1639,7 +1639,7 @@
       "source_id": "https://openalex.org/S99352657",
       "year": 2017,
       "date": "2017-09-27",
-      "citations": 199,
+      "citations": 201,
       "doi": "https://doi.org/10.1002/adma.201703638",
       "link": "https://doi.org/10.1002/adma.201703638",
       "type": "article",
