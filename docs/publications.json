@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-27T04:19:14.024123",
+  "updated": "2026-10-04T04:53:38.208193",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3535,
-    "works_count": 107,
+    "total_citations": 3542,
+    "works_count": 106,
     "h_index": 24,
     "i10_index": 42,
     "author_id": "https://openalex.org/A5082185335",
@@ -12,10 +12,10 @@
   "publications": [
     {
       "title": "Fully Solution-Processed Organic Electrochemical Transistors with Nafion/Chitosan-Coated Gates for Enhanced Cation Detection and Scalable Production",
-      "authors": "Ji Eun Seo, Yong Wook Kim, Seungme Kang, Seung Hwan Chung, Jeong Hye Song, Hocheon Yoo, Eun Kwang Lee",
+      "authors": "Ji Eun Seo, Yonghee Kim, Seungme Kang, Seung Hwan Chung, Jeong Hye Song, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
         "Ji Eun Seo",
-        "Yong Wook Kim",
+        "Yonghee Kim",
         "Seungme Kang",
         "Seung Hwan Chung",
         "Jeong Hye Song",
@@ -55,11 +55,11 @@
     },
     {
       "title": "Near‐Infrared Light‐Sensitive Photoneuromorphic Organic Field‐Effect Transistors With Quantum Dot‐Functionalized Dielectric Layer",
-      "authors": "Seong Bin Woo, Yonghee Kim, Yong Wook Kim, Gui‐Min Kim, Doh C. Lee, Byeong Guk Jeong, Eun Kwang Lee",
+      "authors": "Seong Bin Woo, Yonghee Kim, Yeong Uk Kim, Gui‐Min Kim, Doh C. Lee, Byeong Guk Jeong, Eun Kwang Lee",
       "authors_list": [
         "Seong Bin Woo",
         "Yonghee Kim",
-        "Yong Wook Kim",
+        "Yeong Uk Kim",
         "Gui‐Min Kim",
         "Doh C. Lee",
         "Byeong Guk Jeong",
@@ -101,11 +101,11 @@
     },
     {
       "title": "Confinement at Defect Sites Dissociates Ionic‐Liquid Pairs for Brain‐Like Organic Computing",
-      "authors": "Chang Min Lee, Hye Jeong Son, Y.‐Z. AN, Jin Kim, Hocheon Yoo, Seongbin Ga, Chang Soo Lee, Eun Kwang Lee",
+      "authors": "Chang Min Lee, Hye Jeong Son, Yongsang An, Jin Kim, Hocheon Yoo, Seongbin Ga, Chang Soo Lee, Eun Kwang Lee",
       "authors_list": [
         "Chang Min Lee",
         "Hye Jeong Son",
-        "Y.‐Z. AN",
+        "Yongsang An",
         "Jin Kim",
         "Hocheon Yoo",
         "Seongbin Ga",
@@ -587,11 +587,11 @@
     },
     {
       "title": "Detachable and Reusable: Reinforced π‐Ion Film for Modular Synaptic Reservoir Computing",
-      "authors": "Gyu Won Woo, Chang Min Lee, Won‐Woo Lee, Min Ju Jung, Seung Min Lee, Hye Won Lee, Hocheon Yoo, Yong Hee Kim, Eun Kwang Lee",
+      "authors": "Gyu Won Woo, Chang Min Lee, Won Woo Lee, Min Ju Jung, Seung Min Lee, Hye Won Lee, Hocheon Yoo, Yong Hee Kim, Eun Kwang Lee",
       "authors_list": [
         "Gyu Won Woo",
         "Chang Min Lee",
-        "Won‐Woo Lee",
+        "Won Woo Lee",
         "Min Ju Jung",
         "Seung Min Lee",
         "Hye Won Lee",
@@ -826,11 +826,11 @@
     },
     {
       "title": "A Self-powered Kinetic Motion Sensor Fabricated from Electrospun MOF-5/PVDF-TrFE Composites Piezoelectric Nanogenerators",
-      "authors": "Moon Sik Park, Min Ji Kim, Jong Yeob Jeong, Do Young Han, Soaram Kim, Geon‐Tae Hwang, Hocheon Yoo, Eun Kwang Lee",
+      "authors": "Moon Sik Park, Min Ji Kim, Ju Yeong Jeong, Do Young Han, Soaram Kim, Geon‐Tae Hwang, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
         "Moon Sik Park",
         "Min Ji Kim",
-        "Jong Yeob Jeong",
+        "Ju Yeong Jeong",
         "Do Young Han",
         "Soaram Kim",
         "Geon‐Tae Hwang",
@@ -931,7 +931,7 @@
       "source_id": "https://openalex.org/S164001016",
       "year": 2024,
       "date": "2024-10-17",
-      "citations": 28,
+      "citations": 29,
       "doi": "https://doi.org/10.1021/acsami.4c11731",
       "link": "https://doi.org/10.1021/acsami.4c11731",
       "type": "article",
@@ -1072,7 +1072,7 @@
       "source_id": "https://openalex.org/S2737737698",
       "year": 2024,
       "date": "2024-03-07",
-      "citations": 21,
+      "citations": 22,
       "doi": "https://doi.org/10.1002/advs.202309221",
       "link": "https://doi.org/10.1002/advs.202309221",
       "type": "article",
@@ -1125,11 +1125,11 @@
     },
     {
       "title": "A Self-Powered Kinetic Motion Sensor Fabricated from Electrospun Mof-5/Pvdf-Trfe Composites Piezoelectric Nanogenerators",
-      "authors": "Moon Sik Park, Min Ji Kim, Jong Yeob Jeong, Do Young Han, Soaram Kim, Geon‐Tae Hwang, Hocheon Yoo, Eun Kwang Lee",
+      "authors": "Moon Sik Park, Min Ji Kim, Ju  Yeong Jeong, Do Young Han, Soaram Kim, Geon‐Tae Hwang, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
         "Moon Sik Park",
         "Min Ji Kim",
-        "Jong Yeob Jeong",
+        "Ju  Yeong Jeong",
         "Do Young Han",
         "Soaram Kim",
         "Geon‐Tae Hwang",
@@ -1188,9 +1188,9 @@
     },
     {
       "title": "Enhanced Photocurrent of Electrodeposited Copper Oxide Films Doped with Solution-Processable Organic Cationic Dye as a Dopant",
-      "authors": "Hye Won Lee, Jiyoul Lee, Eun Kwang Lee",
+      "authors": "Hye  Won Lee, Jiyoul Lee, Eun Kwang Lee",
       "authors_list": [
-        "Hye Won Lee",
+        "Hye  Won Lee",
         "Jiyoul Lee",
         "Eun Kwang Lee"
       ],
@@ -1239,7 +1239,7 @@
       "source_id": "https://openalex.org/S67716761",
       "year": 2023,
       "date": "2023-09-26",
-      "citations": 7,
+      "citations": 8,
       "doi": "https://doi.org/10.1016/j.jallcom.2023.172329",
       "link": "https://doi.org/10.1016/j.jallcom.2023.172329",
       "type": "article",
@@ -1308,13 +1308,13 @@
     },
     {
       "title": "Boosting the Optoelectronic Properties of Molybdenum Diselenide by Combining Phase Transition Engineering with Organic Cationic Dye Doping",
-      "authors": "Eun Kwang Lee, Hanum Abdullah, Fabrizio Torricelli, Dong Hyun Lee, Jaekwon Ko, Hyun Ho Kim, Hocheon Yoo, Joon Hak Oh",
+      "authors": "Eun Kwang Lee, Hanum Abdullah, Fabrizio Torricelli, Dong Hyun Lee, Jae Kwon Ko, Hyun Ho Kim, Hocheon Yoo, Joon Hak Oh",
       "authors_list": [
         "Eun Kwang Lee",
         "Hanum Abdullah",
         "Fabrizio Torricelli",
         "Dong Hyun Lee",
-        "Jaekwon Ko",
+        "Jae Kwon Ko",
         "Hyun Ho Kim",
         "Hocheon Yoo",
         "Joon Hak Oh"
@@ -1579,7 +1579,7 @@
       "source_id": "https://openalex.org/S171268996",
       "year": 2019,
       "date": "2019-03-18",
-      "citations": 70,
+      "citations": 71,
       "doi": "https://doi.org/10.1146/annurev-bioeng-060418-052315",
       "link": "https://doi.org/10.1146/annurev-bioeng-060418-052315",
       "type": "review",
@@ -1799,7 +1799,7 @@
       "source_id": "https://openalex.org/S125754415",
       "year": 2016,
       "date": "2016-06-16",
-      "citations": 486,
+      "citations": 487,
       "doi": "https://doi.org/10.1073/pnas.1605318113",
       "link": "https://doi.org/10.1073/pnas.1605318113",
       "type": "article",
@@ -1915,7 +1915,7 @@
       "source_id": "https://openalex.org/S64187185",
       "year": 2015,
       "date": "2015-03-06",
-      "citations": 1159,
+      "citations": 1158,
       "doi": "https://doi.org/10.1038/ncomms7486",
       "link": "https://doi.org/10.1038/ncomms7486",
       "type": "article",
@@ -2056,7 +2056,7 @@
       "source_id": "https://openalex.org/S111155417",
       "year": 2013,
       "date": "2013-05-27",
-      "citations": 134,
+      "citations": 135,
       "doi": "https://doi.org/10.1021/ja402555n",
       "link": "https://doi.org/10.1021/ja402555n",
       "type": "article",
@@ -2065,12 +2065,12 @@
     },
     {
       "title": "Enhanced coercivity in sponge magnets with three dimensionally ordered nanopores",
-      "authors": "Eun Kwang Lee, Wan Seop Kim, Kyu Won Lee, Heung-Bin Lim, Jong In Lee, Hyun Gyu Lee, Nam Hwi Hur",
+      "authors": "Eun Kwang Lee, Wan Seop Kim, Kyu Won Lee, Heungbin Lim, Jong In Lee, Hyun Gyu Lee, Nam Hwi Hur",
       "authors_list": [
         "Eun Kwang Lee",
         "Wan Seop Kim",
         "Kyu Won Lee",
-        "Heung-Bin Lim",
+        "Heungbin Lim",
         "Jong In Lee",
         "Hyun Gyu Lee",
         "Nam Hwi Hur"
@@ -2134,14 +2134,14 @@
     },
     {
       "title": "Phase- and Size-Controlled Synthesis of Hexagonal and Cubic CoO Nanocrystals",
-      "authors": "Won Seok Seo, Jae Ha Shim, Sang Jun Oh, Eun Kwang Lee, Nam Hwi Hur, Joon T. Park",
+      "authors": "Won Seok Seo, Jae Ha Shim, Sang Jun Oh, Eun Kwang Lee, Nam Hwi Hur, Joon Taik Park",
       "authors_list": [
         "Won Seok Seo",
         "Jae Ha Shim",
         "Sang Jun Oh",
         "Eun Kwang Lee",
         "Nam Hwi Hur",
-        "Joon T. Park"
+        "Joon Taik Park"
       ],
       "venue": "Journal of the American Chemical Society",
       "source_id": "https://openalex.org/S111155417",
@@ -2279,27 +2279,6 @@
       "type": "article",
       "pi_position": 0,
       "openalex_id": "https://openalex.org/W2144490924"
-    },
-    {
-      "title": "Triaquatris(2,6-dinitrophenolato-κ^2^ O ^1^, O ^2^)yttrium(III)",
-      "authors": "Hong Ryol Suh, Hyung Sock Suh, Sock Sung Yun, Eun Kwang Lee, Sung Kwon Kang",
-      "authors_list": [
-        "Hong Ryol Suh",
-        "Hyung Sock Suh",
-        "Sock Sung Yun",
-        "Eun Kwang Lee",
-        "Sung Kwon Kang"
-      ],
-      "venue": "",
-      "source_id": "",
-      "year": 2002,
-      "date": "2002-01-01",
-      "citations": 0,
-      "doi": null,
-      "link": "",
-      "type": "article",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W2978642932"
     },
     {
       "title": "CCDC 189299: Experimental Crystal Structure Determination",
