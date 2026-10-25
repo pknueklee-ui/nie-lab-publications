@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-11T04:42:29.695833",
+  "updated": "2026-10-25T03:44:40.353424",
   "orcid": "0000-0001-5727-5716",
   "stats": {
-    "total_citations": 3544,
-    "works_count": 107,
-    "h_index": 24,
-    "i10_index": 42,
+    "total_citations": 3246,
+    "works_count": 75,
+    "h_index": 23,
+    "i10_index": 38,
     "author_id": "https://openalex.org/A5082185335",
     "display_name": "Eun Kwang Lee"
   },
@@ -218,11 +218,11 @@
     },
     {
       "title": "Enhanced near-infrared photonic synaptic devices for unimodal associative learning via PVDF-HFP trap effects and IEICO-4F sensitization",
-      "authors": "Min Ju Jung, Yonghee Kim, W. Y. Lee, Kang-Jun Baeg, Eun Kwang Lee",
+      "authors": "Min Ju Jung, Yonghee Kim, Wen‐Ya Lee, Kang-Jun Baeg, Eun Kwang Lee",
       "authors_list": [
         "Min Ju Jung",
         "Yonghee Kim",
-        "W. Y. Lee",
+        "Wen‐Ya Lee",
         "Kang-Jun Baeg",
         "Eun Kwang Lee"
       ],
@@ -374,73 +374,6 @@
       "openalex_id": "https://openalex.org/W7118885086"
     },
     {
-      "title": "Fully Screen-Printed OECTs with Nafion/Chitosan-Coated Gates for Selective Cation Sensing and Scalable Production",
-      "authors": "Ji Eun Seo, Yonghee Kim, Seungme Kang, Seung Hwan Chung, Jeong Hye Song, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Ji Eun Seo",
-        "Yonghee Kim",
-        "Seungme Kang",
-        "Seung Hwan Chung",
-        "Jeong Hye Song",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "SSRN Electronic Journal",
-      "source_id": "https://openalex.org/S4210172589",
-      "year": 2026,
-      "date": "2026-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.2139/ssrn.6097242",
-      "link": "https://doi.org/10.2139/ssrn.6097242",
-      "type": "preprint",
-      "pi_position": 6,
-      "openalex_id": "https://openalex.org/W7125159768"
-    },
-    {
-      "title": "Enhanced Near-Infrared Photonic Synaptic Devices for Unimodal Associative Learning via PVDF-HFP Trap Effects and IEICO-4F Sensitization",
-      "authors": "Min Ju Jung, Yonghee Kim, Wen-Ya Lee, Kang‐Jun Baeg, Eun Kwang Lee",
-      "authors_list": [
-        "Min Ju Jung",
-        "Yonghee Kim",
-        "Wen-Ya Lee",
-        "Kang‐Jun Baeg",
-        "Eun Kwang Lee"
-      ],
-      "venue": "SSRN Electronic Journal",
-      "source_id": "https://openalex.org/S4210172589",
-      "year": 2026,
-      "date": "2026-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.2139/ssrn.6124393",
-      "link": "https://doi.org/10.2139/ssrn.6124393",
-      "type": "preprint",
-      "pi_position": 4,
-      "openalex_id": "https://openalex.org/W7125581110"
-    },
-    {
-      "title": "Fully Solution-Processed Organic Electrochemical Transistors with Nafion/Chitosan-Coated Gates for Enhanced Cation Detection and Scalable Production",
-      "authors": "Ji Eun Seo, Yonghee Kim, Seungme Kang, Seung Hwan Chung, Jeong Hye Song, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Ji Eun Seo",
-        "Yonghee Kim",
-        "Seungme Kang",
-        "Seung Hwan Chung",
-        "Jeong Hye Song",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "SSRN Electronic Journal",
-      "source_id": "https://openalex.org/S4210172589",
-      "year": 2026,
-      "date": "2026-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.2139/ssrn.6276829",
-      "link": "https://doi.org/10.2139/ssrn.6276829",
-      "type": "preprint",
-      "pi_position": 6,
-      "openalex_id": "https://openalex.org/W7131780812"
-    },
-    {
       "title": "Advances in Organic In‐Sensor Neuromorphic Computing: from Material Mechanisms to Applications",
       "authors": "Dong Hyun Lee, Woojo Kim, Eun Kwang Lee, Hocheon Yoo",
       "authors_list": [
@@ -473,7 +406,7 @@
       "source_id": "https://openalex.org/S2500738039",
       "year": 2025,
       "date": "2025-11-17",
-      "citations": 2,
+      "citations": 3,
       "doi": "https://doi.org/10.1039/d5tc03449c",
       "link": "https://doi.org/10.1039/d5tc03449c",
       "type": "article",
@@ -503,29 +436,6 @@
       "type": "article",
       "pi_position": 7,
       "openalex_id": "https://openalex.org/W4415131581"
-    },
-    {
-      "title": "Heterojunction‐Driven Stochasticity: Bi‐Heterojunction Noise‐Enhanced Negative Transconductance Transistor in Image Generation (Adv. Mater. 41/2025)",
-      "authors": "Young-Min Han, Ryun‐Han Koo, J. Q. Song, Chang‐Hyun Kim, Eun Kwang Lee, Wonjun Shin, Hocheon Yoo",
-      "authors_list": [
-        "Young-Min Han",
-        "Ryun‐Han Koo",
-        "J. Q. Song",
-        "Chang‐Hyun Kim",
-        "Eun Kwang Lee",
-        "Wonjun Shin",
-        "Hocheon Yoo"
-      ],
-      "venue": "Advanced Materials",
-      "source_id": "https://openalex.org/S99352657",
-      "year": 2025,
-      "date": "2025-10-01",
-      "citations": 1,
-      "doi": "https://doi.org/10.1002/adma.70827",
-      "link": "https://doi.org/10.1002/adma.70827",
-      "type": "article",
-      "pi_position": 4,
-      "openalex_id": "https://openalex.org/W4415275482"
     },
     {
       "title": "Enhanced Photocurrent of Electrodeposited Copper Oxide Films Doped with Solution-Processable Organic Cationic Dye as a Dopant",
@@ -559,7 +469,7 @@
       "source_id": "https://openalex.org/S5407036554",
       "year": 2025,
       "date": "2025-07-24",
-      "citations": 14,
+      "citations": 15,
       "doi": "https://doi.org/10.1002/aidi.202500053",
       "link": "https://doi.org/10.1002/aidi.202500053",
       "type": "article",
@@ -589,27 +499,6 @@
       "openalex_id": "https://openalex.org/W4412528462"
     },
     {
-      "title": "Author response for \"Improved Neuromorphic Functionality in Organic Electrochemical Transistors Using Crosslinked-Polyvinyl alcohol for Fast Ion Transport and its Application to Pavlovian Transistors\"",
-      "authors": "Seung Hwan Song, Jeong Hye Song, Jisoo Park, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Seung Hwan Song",
-        "Jeong Hye Song",
-        "Jisoo Park",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "",
-      "source_id": "",
-      "year": 2025,
-      "date": "2025-07-08",
-      "citations": 0,
-      "doi": "https://doi.org/10.1039/d5tc01475a/v2/response1",
-      "link": "https://doi.org/10.1039/d5tc01475a/v2/response1",
-      "type": "peer-review",
-      "pi_position": 4,
-      "openalex_id": "https://openalex.org/W4412350637"
-    },
-    {
       "title": "Detachable and Reusable: Reinforced π‐Ion Film for Modular Synaptic Reservoir Computing",
       "authors": "Gyu Won Woo, Chang Min Lee, Won Woo Lee, Min Ju Jung, Seung Min Lee, Hye Won Lee, Hocheon Yoo, Yong Hee Kim, Eun Kwang Lee",
       "authors_list": [
@@ -627,7 +516,7 @@
       "source_id": "https://openalex.org/S99352657",
       "year": 2025,
       "date": "2025-06-27",
-      "citations": 11,
+      "citations": 12,
       "doi": "https://doi.org/10.1002/adma.202506729",
       "link": "https://doi.org/10.1002/adma.202506729",
       "type": "article",
@@ -650,7 +539,7 @@
       "source_id": "https://openalex.org/S99352657",
       "year": 2025,
       "date": "2025-06-25",
-      "citations": 14,
+      "citations": 15,
       "doi": "https://doi.org/10.1002/adma.202505150",
       "link": "https://doi.org/10.1002/adma.202505150",
       "type": "article",
@@ -669,52 +558,12 @@
       "source_id": "https://openalex.org/S164001016",
       "year": 2025,
       "date": "2025-06-23",
-      "citations": 5,
+      "citations": 4,
       "doi": "https://doi.org/10.1021/acsami.5c07717",
       "link": "https://doi.org/10.1021/acsami.5c07717",
       "type": "article",
       "pi_position": 2,
       "openalex_id": "https://openalex.org/W4411565600"
-    },
-    {
-      "title": "Author response for \"Kinetic Swelling-Driven PTG Interlayers for Enhanced Crystallinity and Charge Transport in Polymer OECTs\"",
-      "authors": "Jeong Hye Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Jeong Hye Song",
-        "Yong Hee Kim",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "",
-      "source_id": "",
-      "year": 2025,
-      "date": "2025-06-17",
-      "citations": 0,
-      "doi": "https://doi.org/10.1039/d5tc01098e/v3/response1",
-      "link": "https://doi.org/10.1039/d5tc01098e/v3/response1",
-      "type": "peer-review",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W4412436055"
-    },
-    {
-      "title": "Author response for \"Kinetic Swelling-Driven PTG Interlayers for Enhanced Crystallinity and Charge Transport in Polymer OECTs\"",
-      "authors": "Jeong Hye Song, Yong Hee Kim, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Jeong Hye Song",
-        "Yong Hee Kim",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "",
-      "source_id": "",
-      "year": 2025,
-      "date": "2025-06-09",
-      "citations": 0,
-      "doi": "https://doi.org/10.1039/d5tc01098e/v2/response1",
-      "link": "https://doi.org/10.1039/d5tc01098e/v2/response1",
-      "type": "peer-review",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W4412436142"
     },
     {
       "title": "Highly Efficient n‐Type Doped Single‐Crystalline Perylene Diimide Microwires via Solution Processing for High‐Performance Photosensors and Photo‐Neuromorphic Devices",
@@ -824,31 +673,6 @@
       "openalex_id": "https://openalex.org/W4415171304"
     },
     {
-      "title": "Adaptive VOC Detection with Alcohol Dehydrogenase-Integrated Gelatin Transistors",
-      "authors": "Han Na Kim, Jeong Hye Song, Hyo‐Ryoung Lim, Wangmyung Choi, Sang Hyun Lee, Gun Ho Hong, Seyong Oh, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Han Na Kim",
-        "Jeong Hye Song",
-        "Hyo‐Ryoung Lim",
-        "Wangmyung Choi",
-        "Sang Hyun Lee",
-        "Gun Ho Hong",
-        "Seyong Oh",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "SSRN Electronic Journal",
-      "source_id": "https://openalex.org/S4210172589",
-      "year": 2025,
-      "date": "2025-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.2139/ssrn.5464167",
-      "link": "https://doi.org/10.2139/ssrn.5464167",
-      "type": "preprint",
-      "pi_position": 8,
-      "openalex_id": "https://openalex.org/W4414170827"
-    },
-    {
       "title": "A Self-powered Kinetic Motion Sensor Fabricated from Electrospun MOF-5/PVDF-TrFE Composites Piezoelectric Nanogenerators",
       "authors": "Moon Sik Park, Min Ji Kim, Ju Yeong Jeong, Do Young Han, Soaram Kim, Geon‐Tae Hwang, Hocheon Yoo, Eun Kwang Lee",
       "authors_list": [
@@ -908,7 +732,7 @@
       "source_id": "https://openalex.org/S135204980",
       "year": 2024,
       "date": "2024-11-16",
-      "citations": 36,
+      "citations": 39,
       "doi": "https://doi.org/10.1002/adfm.202417539",
       "link": "https://doi.org/10.1002/adfm.202417539",
       "type": "article",
@@ -928,7 +752,7 @@
       "source_id": "https://openalex.org/S2765038284",
       "year": 2024,
       "date": "2024-11-12",
-      "citations": 15,
+      "citations": 17,
       "doi": "https://doi.org/10.1002/admt.202401316",
       "link": "https://doi.org/10.1002/admt.202401316",
       "type": "article",
@@ -983,10 +807,10 @@
     },
     {
       "title": "n-Type Doping Effect of Anthracene-Based Cationic Dyes in Organic Electronics",
-      "authors": "Yonghee Kim, M. H. Jung, Rajeev Kumar, Jeong‐Mo Choi, Eun Kwang Lee, Jiyoul Lee",
+      "authors": "Yonghee Kim, Minju Jung, Rajeev Kumar, Jeong‐Mo Choi, Eun Kwang Lee, Jiyoul Lee",
       "authors_list": [
         "Yonghee Kim",
-        "M. H. Jung",
+        "Minju Jung",
         "Rajeev Kumar",
         "Jeong‐Mo Choi",
         "Eun Kwang Lee",
@@ -1035,7 +859,7 @@
       "source_id": "https://openalex.org/S2765038284",
       "year": 2024,
       "date": "2024-08-01",
-      "citations": 22,
+      "citations": 25,
       "doi": "https://doi.org/10.1002/admt.202400478",
       "link": "https://doi.org/10.1002/admt.202400478",
       "type": "article",
@@ -1140,94 +964,12 @@
       "source_id": "https://openalex.org/S4210174281",
       "year": 2024,
       "date": "2024-01-02",
-      "citations": 28,
+      "citations": 30,
       "doi": "https://doi.org/10.1002/eom2.12433",
       "link": "https://doi.org/10.1002/eom2.12433",
       "type": "article",
       "pi_position": 3,
       "openalex_id": "https://openalex.org/W4390541523"
-    },
-    {
-      "title": "A Self-Powered Kinetic Motion Sensor Fabricated from Electrospun Mof-5/Pvdf-Trfe Composites Piezoelectric Nanogenerators",
-      "authors": "Moon Sik Park, Min Ji Kim, Ju  Yeong Jeong, Do Young Han, Soaram Kim, Geon‐Tae Hwang, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Moon Sik Park",
-        "Min Ji Kim",
-        "Ju  Yeong Jeong",
-        "Do Young Han",
-        "Soaram Kim",
-        "Geon‐Tae Hwang",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "SSRN Electronic Journal",
-      "source_id": "https://openalex.org/S4210172589",
-      "year": 2024,
-      "date": "2024-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.2139/ssrn.4763960",
-      "link": "https://doi.org/10.2139/ssrn.4763960",
-      "type": "preprint",
-      "pi_position": 7,
-      "openalex_id": "https://openalex.org/W4392900629"
-    },
-    {
-      "title": "Enhanced Synaptic Behavior of Neuromorphic Device Based on Organic Electrochemical Transistors by Adding Aminosilane",
-      "authors": "Daehee Kim, Jiyoul Lee, Hocheon Yoo, Eun Kwang Lee",
-      "authors_list": [
-        "Daehee Kim",
-        "Jiyoul Lee",
-        "Hocheon Yoo",
-        "Eun Kwang Lee"
-      ],
-      "venue": "SSRN Electronic Journal",
-      "source_id": "https://openalex.org/S4210172589",
-      "year": 2024,
-      "date": "2024-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.2139/ssrn.4797886",
-      "link": "https://doi.org/10.2139/ssrn.4797886",
-      "type": "preprint",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W4394897137"
-    },
-    {
-      "title": "Hybrid Amphiphilic Janus Pdms Sponge Enabling Electrical Sensing of Oils",
-      "authors": "Min Je Oh, Joon Hak Oh, Eun Kwang Lee",
-      "authors_list": [
-        "Min Je Oh",
-        "Joon Hak Oh",
-        "Eun Kwang Lee"
-      ],
-      "venue": "SSRN Electronic Journal",
-      "source_id": "https://openalex.org/S4210172589",
-      "year": 2024,
-      "date": "2024-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.2139/ssrn.4876308",
-      "link": "https://doi.org/10.2139/ssrn.4876308",
-      "type": "preprint",
-      "pi_position": 2,
-      "openalex_id": "https://openalex.org/W4399996877"
-    },
-    {
-      "title": "Enhanced Photocurrent of Electrodeposited Copper Oxide Films Doped with Solution-Processable Organic Cationic Dye as a Dopant",
-      "authors": "Hye  Won Lee, Jiyoul Lee, Eun Kwang Lee",
-      "authors_list": [
-        "Hye  Won Lee",
-        "Jiyoul Lee",
-        "Eun Kwang Lee"
-      ],
-      "venue": "SSRN Electronic Journal",
-      "source_id": "https://openalex.org/S4210172589",
-      "year": 2024,
-      "date": "2024-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.2139/ssrn.4921354",
-      "link": "https://doi.org/10.2139/ssrn.4921354",
-      "type": "preprint",
-      "pi_position": 2,
-      "openalex_id": "https://openalex.org/W4401450427"
     },
     {
       "title": "Overcoming Downscaling Limitations in Organic Semiconductors: Strategies and Progress",
@@ -1301,7 +1043,7 @@
       "source_id": "https://openalex.org/S123288148",
       "year": 2022,
       "date": "2022-07-21",
-      "citations": 36,
+      "citations": 37,
       "doi": "https://doi.org/10.3390/polym14142960",
       "link": "https://doi.org/10.3390/polym14142960",
       "type": "article",
@@ -1323,7 +1065,7 @@
       "source_id": "https://openalex.org/S123288148",
       "year": 2022,
       "date": "2022-06-26",
-      "citations": 11,
+      "citations": 12,
       "doi": "https://doi.org/10.3390/polym14132586",
       "link": "https://doi.org/10.3390/polym14132586",
       "type": "article",
@@ -1385,7 +1127,7 @@
       "source_id": "https://openalex.org/S108911230",
       "year": 2021,
       "date": "2021-08-20",
-      "citations": 35,
+      "citations": 36,
       "doi": "https://doi.org/10.3390/molecules26165056",
       "link": "https://doi.org/10.3390/molecules26165056",
       "type": "article",
@@ -1434,32 +1176,6 @@
       "openalex_id": "https://openalex.org/W3156515824"
     },
     {
-      "title": "Fused Aromatic Network Structures: Fused Aromatic Network with Exceptionally High Carrier Mobility (Adv. Mater. 9/2021)",
-      "authors": "Javeed Mahmood, Eun Kwang Lee, Hyuk‐Jun Noh, Ishfaq Ahmad, Jeong‐Min Seo, Yoon‐Kwang Im, Jong‐Pil Jeon, Seok‐Jin Kim, Joon Hak Oh, Jong‐Beom Baek",
-      "authors_list": [
-        "Javeed Mahmood",
-        "Eun Kwang Lee",
-        "Hyuk‐Jun Noh",
-        "Ishfaq Ahmad",
-        "Jeong‐Min Seo",
-        "Yoon‐Kwang Im",
-        "Jong‐Pil Jeon",
-        "Seok‐Jin Kim",
-        "Joon Hak Oh",
-        "Jong‐Beom Baek"
-      ],
-      "venue": "Advanced Materials",
-      "source_id": "https://openalex.org/S99352657",
-      "year": 2021,
-      "date": "2021-03-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.1002/adma.202170063",
-      "link": "https://doi.org/10.1002/adma.202170063",
-      "type": "article",
-      "pi_position": 1,
-      "openalex_id": "https://openalex.org/W3134515186"
-    },
-    {
       "title": "Fused Aromatic Network with Exceptionally High Carrier Mobility",
       "authors": "Javeed Mahmood, Eun Kwang Lee, Hyuk‐Jun Noh, Ishfaq Ahmad, Jeong‐Min Seo, Yoon‐Kwang Im, Jong‐Pil Jeon, Seok‐Jin Kim, Joon Hak Oh, Jong‐Beom Baek",
       "authors_list": [
@@ -1478,7 +1194,7 @@
       "source_id": "https://openalex.org/S99352657",
       "year": 2021,
       "date": "2021-01-20",
-      "citations": 37,
+      "citations": 38,
       "doi": "https://doi.org/10.1002/adma.202004707",
       "link": "https://doi.org/10.1002/adma.202004707",
       "type": "article",
@@ -1523,54 +1239,12 @@
       "source_id": "https://openalex.org/S99352657",
       "year": 2020,
       "date": "2020-10-12",
-      "citations": 41,
+      "citations": 40,
       "doi": "https://doi.org/10.1002/adma.202004456",
       "link": "https://doi.org/10.1002/adma.202004456",
       "type": "article",
       "pi_position": 0,
       "openalex_id": "https://openalex.org/W3092447340"
-    },
-    {
-      "title": "Scaling Approach for Sub-Kilowatt Hall-Effect Thrusters",
-      "authors": "Eun Kwang Lee, Youn-Ho Kim, Hodong Lee, Holak Kim, Guentae Doh, Dong‐Ho Lee, Wonho Choe",
-      "authors_list": [
-        "Eun Kwang Lee",
-        "Youn-Ho Kim",
-        "Hodong Lee",
-        "Holak Kim",
-        "Guentae Doh",
-        "Dong‐Ho Lee",
-        "Wonho Choe"
-      ],
-      "venue": "Journal of Propulsion and Power",
-      "source_id": "https://openalex.org/S114140916",
-      "year": 2019,
-      "date": "2019-08-02",
-      "citations": 29,
-      "doi": "https://doi.org/10.2514/1.b37424",
-      "link": "https://doi.org/10.2514/1.b37424",
-      "type": "article",
-      "pi_position": 0,
-      "openalex_id": "https://openalex.org/W2964743511"
-    },
-    {
-      "title": "Organic Electronics: Flexible Low‐Power Operative Organic Source‐Gated Transistors (Adv. Funct. Mater. 27/2019)",
-      "authors": "Yonghee Kim, Eun Kwang Lee, Joon Hak Oh",
-      "authors_list": [
-        "Yonghee Kim",
-        "Eun Kwang Lee",
-        "Joon Hak Oh"
-      ],
-      "venue": "Advanced Functional Materials",
-      "source_id": "https://openalex.org/S135204980",
-      "year": 2019,
-      "date": "2019-07-01",
-      "citations": 4,
-      "doi": "https://doi.org/10.1002/adfm.201970189",
-      "link": "https://doi.org/10.1002/adfm.201970189",
-      "type": "article",
-      "pi_position": 1,
-      "openalex_id": "https://openalex.org/W2955434738"
     },
     {
       "title": "Flexible Low‐Power Operative Organic Source‐Gated Transistors",
@@ -1663,34 +1337,12 @@
       "source_id": "https://openalex.org/S99352657",
       "year": 2017,
       "date": "2017-09-27",
-      "citations": 205,
+      "citations": 204,
       "doi": "https://doi.org/10.1002/adma.201703638",
       "link": "https://doi.org/10.1002/adma.201703638",
       "type": "article",
       "pi_position": 0,
       "openalex_id": "https://openalex.org/W2758428769"
-    },
-    {
-      "title": "Organic Transistors: Chemically Robust Ambipolar Organic Transistor Array Directly Patterned by Photolithography (Adv. Mater. 11/2017)",
-      "authors": "Eun Kwang Lee, Cheol Hee Park, Junghoon Lee, Hae Rang Lee, Changduk Yang, Joon Hak Oh",
-      "authors_list": [
-        "Eun Kwang Lee",
-        "Cheol Hee Park",
-        "Junghoon Lee",
-        "Hae Rang Lee",
-        "Changduk Yang",
-        "Joon Hak Oh"
-      ],
-      "venue": "Advanced Materials",
-      "source_id": "https://openalex.org/S99352657",
-      "year": 2017,
-      "date": "2017-03-01",
-      "citations": 2,
-      "doi": "https://doi.org/10.1002/adma.201770077",
-      "link": "https://doi.org/10.1002/adma.201770077",
-      "type": "article",
-      "pi_position": 0,
-      "openalex_id": "https://openalex.org/W2600364884"
     },
     {
       "title": "Soft Nanoelectronic Devices Based on Novel 2D Nanomaterials and Self-assembled Organic Semiconductors",
@@ -1823,7 +1475,7 @@
       "source_id": "https://openalex.org/S125754415",
       "year": 2016,
       "date": "2016-06-16",
-      "citations": 485,
+      "citations": 478,
       "doi": "https://doi.org/10.1073/pnas.1605318113",
       "link": "https://doi.org/10.1073/pnas.1605318113",
       "type": "article",
@@ -1868,7 +1520,7 @@
       "source_id": "https://openalex.org/S135204980",
       "year": 2016,
       "date": "2016-02-08",
-      "citations": 122,
+      "citations": 121,
       "doi": "https://doi.org/10.1002/adfm.201503230",
       "link": "https://doi.org/10.1002/adfm.201503230",
       "type": "article",
@@ -1897,26 +1549,6 @@
       "openalex_id": "https://openalex.org/W2224492913"
     },
     {
-      "title": "Improvement of cis-Vaccenic Acid Production in Escherichia coli",
-      "authors": "Gyu Beom Jin, Hye Min Park, Eun Kwang Lee, Hyun Shik Yun",
-      "authors_list": [
-        "Gyu Beom Jin",
-        "Hye Min Park",
-        "Eun Kwang Lee",
-        "Hyun Shik Yun"
-      ],
-      "venue": "한국생물공학회 학술대회",
-      "source_id": "https://openalex.org/S4306495817",
-      "year": 2015,
-      "date": "2015-04-01",
-      "citations": 0,
-      "doi": null,
-      "link": "",
-      "type": "article",
-      "pi_position": 2,
-      "openalex_id": "https://openalex.org/W2405091485"
-    },
-    {
       "title": "Nitrogenated holey two-dimensional structures",
       "authors": "Javeed Mahmood, Eun Kwang Lee, Minbok Jung, Dongbin Shin, In‐Yup Jeon, Sun‐Min Jung, Hyun-Jung Choi, Jeong‐Min Seo, Seo‐Yoon Bae, So-Dam Sohn, Noejung Park, Joon Hak Oh, Hyung‐Joon Shin, Jong‐Beom Baek",
       "authors_list": [
@@ -1939,7 +1571,7 @@
       "source_id": "https://openalex.org/S64187185",
       "year": 2015,
       "date": "2015-03-06",
-      "citations": 1151,
+      "citations": 1138,
       "doi": "https://doi.org/10.1038/ncomms7486",
       "link": "https://doi.org/10.1038/ncomms7486",
       "type": "article",
@@ -2013,32 +1645,6 @@
       "openalex_id": "https://openalex.org/W2140856317"
     },
     {
-      "title": "Direct Solvothermal Synthesis of B/N‐Doped Graphene",
-      "authors": "Sun‐Min Jung, Eun Kwang Lee, Min Choi, Dongbin Shin, In‐Yup Jeon, Jeong‐Min Seo, Hu Young Jeong, Noejung Park, Joon Hak Oh, Jong‐Beom Baek",
-      "authors_list": [
-        "Sun‐Min Jung",
-        "Eun Kwang Lee",
-        "Min Choi",
-        "Dongbin Shin",
-        "In‐Yup Jeon",
-        "Jeong‐Min Seo",
-        "Hu Young Jeong",
-        "Noejung Park",
-        "Joon Hak Oh",
-        "Jong‐Beom Baek"
-      ],
-      "venue": "Angewandte Chemie",
-      "source_id": "https://openalex.org/S4210200754",
-      "year": 2014,
-      "date": "2014-02-20",
-      "citations": 20,
-      "doi": "https://doi.org/10.1002/ange.201310260",
-      "link": "https://doi.org/10.1002/ange.201310260",
-      "type": "article",
-      "pi_position": 1,
-      "openalex_id": "https://openalex.org/W4245283968"
-    },
-    {
       "title": "Tuning polarity and improving charge transport in organic semiconductors",
       "authors": "Joon Hak Oh, A‐Reum Han, Hojeong Yu, Eun Kwang Lee, Moon Jeong Jang",
       "authors_list": [
@@ -2086,265 +1692,6 @@
       "type": "article",
       "pi_position": 1,
       "openalex_id": "https://openalex.org/W2137631811"
-    },
-    {
-      "title": "Enhanced coercivity in sponge magnets with three dimensionally ordered nanopores",
-      "authors": "Eun Kwang Lee, Wan Seop Kim, Kyu Won Lee, Heungbin Lim, Jong In Lee, Hyun Gyu Lee, Nam Hwi Hur",
-      "authors_list": [
-        "Eun Kwang Lee",
-        "Wan Seop Kim",
-        "Kyu Won Lee",
-        "Heungbin Lim",
-        "Jong In Lee",
-        "Hyun Gyu Lee",
-        "Nam Hwi Hur"
-      ],
-      "venue": "Solid State Communications",
-      "source_id": "https://openalex.org/S82088436",
-      "year": 2008,
-      "date": "2008-10-27",
-      "citations": 4,
-      "doi": "https://doi.org/10.1016/j.ssc.2008.10.021",
-      "link": "https://doi.org/10.1016/j.ssc.2008.10.021",
-      "type": "article",
-      "pi_position": 0,
-      "openalex_id": "https://openalex.org/W2012511012"
-    },
-    {
-      "title": "CCDC 236997: Experimental Crystal Structure Determination",
-      "authors": "Sock‐Sung Yun, Sung Kwon Kang, Hong-Ryol Suh, Hyung-Sock Suh, Eun Kwang Lee, Jae-Kyung Kim, Chong‐Hyeak Kim",
-      "authors_list": [
-        "Sock‐Sung Yun",
-        "Sung Kwon Kang",
-        "Hong-Ryol Suh",
-        "Hyung-Sock Suh",
-        "Eun Kwang Lee",
-        "Jae-Kyung Kim",
-        "Chong‐Hyeak Kim"
-      ],
-      "venue": "The Cambridge Structural Database",
-      "source_id": "https://openalex.org/S4397694588",
-      "year": 2007,
-      "date": "2007-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.5517/cc7ym2v",
-      "link": "https://doi.org/10.5517/cc7ym2v",
-      "type": "dataset",
-      "pi_position": 4,
-      "openalex_id": "https://openalex.org/W4397388586"
-    },
-    {
-      "title": "CCDC 236996: Experimental Crystal Structure Determination",
-      "authors": "Sock‐Sung Yun, Sung Kwon Kang, Hong-Ryol Suh, Hyung-Sock Suh, Eun Kwang Lee, Jae-Kyung Kim, Chong‐Hyeak Kim",
-      "authors_list": [
-        "Sock‐Sung Yun",
-        "Sung Kwon Kang",
-        "Hong-Ryol Suh",
-        "Hyung-Sock Suh",
-        "Eun Kwang Lee",
-        "Jae-Kyung Kim",
-        "Chong‐Hyeak Kim"
-      ],
-      "venue": "The Cambridge Structural Database",
-      "source_id": "https://openalex.org/S4397694588",
-      "year": 2007,
-      "date": "2007-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.5517/cc7ym1t",
-      "link": "https://doi.org/10.5517/cc7ym1t",
-      "type": "dataset",
-      "pi_position": 4,
-      "openalex_id": "https://openalex.org/W4397437994"
-    },
-    {
-      "title": "Phase- and Size-Controlled Synthesis of Hexagonal and Cubic CoO Nanocrystals",
-      "authors": "Won Seok Seo, Jae Ha Shim, Sang Jun Oh, Eun Kwang Lee, Nam Hwi Hur, Joon Taik Park",
-      "authors_list": [
-        "Won Seok Seo",
-        "Jae Ha Shim",
-        "Sang Jun Oh",
-        "Eun Kwang Lee",
-        "Nam Hwi Hur",
-        "Joon Taik Park"
-      ],
-      "venue": "Journal of the American Chemical Society",
-      "source_id": "https://openalex.org/S111155417",
-      "year": 2005,
-      "date": "2005-04-09",
-      "citations": 235,
-      "doi": "https://doi.org/10.1021/ja050359t",
-      "link": "https://doi.org/10.1021/ja050359t",
-      "type": "article",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W1988283960"
-    },
-    {
-      "title": "Direct Evidence for Ferromagnetism of Nanometer-Scale Palladium by Contact with Perovskite Manganite",
-      "authors": "Young Nam Kim, Eun Kwang Lee, Yong‐Bok Lee, Heejae Shim, Nam Hwi Hur, Wan Seop Kim",
-      "authors_list": [
-        "Young Nam Kim",
-        "Eun Kwang Lee",
-        "Yong‐Bok Lee",
-        "Heejae Shim",
-        "Nam Hwi Hur",
-        "Wan Seop Kim"
-      ],
-      "venue": "Journal of the American Chemical Society",
-      "source_id": "https://openalex.org/S111155417",
-      "year": 2004,
-      "date": "2004-06-25",
-      "citations": 13,
-      "doi": "https://doi.org/10.1021/ja047949w",
-      "link": "https://doi.org/10.1021/ja047949w",
-      "type": "article",
-      "pi_position": 1,
-      "openalex_id": "https://openalex.org/W1968124379"
-    },
-    {
-      "title": "Large magnetoresistance in three dimensionally ordered macroporous perovskite manganites prepared by a colloidal templating method",
-      "authors": "Young Nam Kim, Seung Joo Kim, Eun Kwang Lee, Eun Ok Chi, Nam Hwi Hur, Chang Seop Hong",
-      "authors_list": [
-        "Young Nam Kim",
-        "Seung Joo Kim",
-        "Eun Kwang Lee",
-        "Eun Ok Chi",
-        "Nam Hwi Hur",
-        "Chang Seop Hong"
-      ],
-      "venue": "Journal of Materials Chemistry",
-      "source_id": "https://openalex.org/S45305740",
-      "year": 2004,
-      "date": "2004-01-01",
-      "citations": 28,
-      "doi": "https://doi.org/10.1039/b402899f",
-      "link": "https://doi.org/10.1039/b402899f",
-      "type": "article",
-      "pi_position": 2,
-      "openalex_id": "https://openalex.org/W2169397207"
-    },
-    {
-      "title": "Preparation of ferromagnetic and ferroelectric nanocomposites using the colloidal templating method",
-      "authors": "Young Nam Kim, Eun Ok Chi, Jin Chul Kim, Eun Kwang Lee, Nam Hwi Hur",
-      "authors_list": [
-        "Young Nam Kim",
-        "Eun Ok Chi",
-        "Jin Chul Kim",
-        "Eun Kwang Lee",
-        "Nam Hwi Hur"
-      ],
-      "venue": "Solid State Communications",
-      "source_id": "https://openalex.org/S82088436",
-      "year": 2003,
-      "date": "2003-09-12",
-      "citations": 25,
-      "doi": "https://doi.org/10.1016/j.ssc.2003.08.045",
-      "link": "https://doi.org/10.1016/j.ssc.2003.08.045",
-      "type": "article",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W2079355852"
-    },
-    {
-      "title": "Triaquatris(2,6-dinitrophenolato)neodymium(III)",
-      "authors": "Hong Ryol Suh, Hyung Sock Suh, Sock Sung Yun, Eun Kwang Lee, Sung Kwon Kang",
-      "authors_list": [
-        "Hong Ryol Suh",
-        "Hyung Sock Suh",
-        "Sock Sung Yun",
-        "Eun Kwang Lee",
-        "Sung Kwon Kang"
-      ],
-      "venue": "Acta Crystallographica Section E Structure Reports Online",
-      "source_id": "https://openalex.org/S146636433",
-      "year": 2002,
-      "date": "2002-05-17",
-      "citations": 2,
-      "doi": "https://doi.org/10.1107/s1600536802008267",
-      "link": "https://doi.org/10.1107/s1600536802008267",
-      "type": "article",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W2127911354"
-    },
-    {
-      "title": "Triaquatris(2,6-dinitrophenolato-κ2O1,O2)yttrium(III)",
-      "authors": "Hong Ryol Suh, Hyung Sock Suh, Sock Sung Yun, Eun Kwang Lee, Sung Kwon Kang",
-      "authors_list": [
-        "Hong Ryol Suh",
-        "Hyung Sock Suh",
-        "Sock Sung Yun",
-        "Eun Kwang Lee",
-        "Sung Kwon Kang"
-      ],
-      "venue": "Acta Crystallographica Section C Crystal Structure Communications",
-      "source_id": "https://openalex.org/S149116045",
-      "year": 2002,
-      "date": "2002-03-12",
-      "citations": 1,
-      "doi": "https://doi.org/10.1107/s0108270102002822",
-      "link": "https://doi.org/10.1107/s0108270102002822",
-      "type": "article",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W1793409508"
-    },
-    {
-      "title": "The intermetallic compound BaAuSb",
-      "authors": "Eun Kwang Lee, Gordon J. Miller, Sung Kwon Kang",
-      "authors_list": [
-        "Eun Kwang Lee",
-        "Gordon J. Miller",
-        "Sung Kwon Kang"
-      ],
-      "venue": "Acta Crystallographica Section E Structure Reports Online",
-      "source_id": "https://openalex.org/S146636433",
-      "year": 2002,
-      "date": "2002-01-18",
-      "citations": 3,
-      "doi": "https://doi.org/10.1107/s1600536802000569",
-      "link": "https://doi.org/10.1107/s1600536802000569",
-      "type": "article",
-      "pi_position": 0,
-      "openalex_id": "https://openalex.org/W2144490924"
-    },
-    {
-      "title": "CCDC 189299: Experimental Crystal Structure Determination",
-      "authors": "Hong Ryol Suh, Hyung Sock Suh, Sock Sung Yun, Eun Kwang Lee, Sung Kwon Kang",
-      "authors_list": [
-        "Hong Ryol Suh",
-        "Hyung Sock Suh",
-        "Sock Sung Yun",
-        "Eun Kwang Lee",
-        "Sung Kwon Kang"
-      ],
-      "venue": "The Cambridge Structural Database",
-      "source_id": "https://openalex.org/S4397694588",
-      "year": 2002,
-      "date": "2002-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.5517/cc6bzfx",
-      "link": "https://doi.org/10.5517/cc6bzfx",
-      "type": "dataset",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W4397074478"
-    },
-    {
-      "title": "CCDC 184454: Experimental Crystal Structure Determination",
-      "authors": "Hong Ryol Suh, Hyung Sock Suh, Sock Sung Yun, Eun Kwang Lee, Sung Kwon Kang",
-      "authors_list": [
-        "Hong Ryol Suh",
-        "Hyung Sock Suh",
-        "Sock Sung Yun",
-        "Eun Kwang Lee",
-        "Sung Kwon Kang"
-      ],
-      "venue": "The Cambridge Structural Database",
-      "source_id": "https://openalex.org/S4397694588",
-      "year": 2002,
-      "date": "2002-01-01",
-      "citations": 0,
-      "doi": "https://doi.org/10.5517/cc65y4f",
-      "link": "https://doi.org/10.5517/cc65y4f",
-      "type": "dataset",
-      "pi_position": 3,
-      "openalex_id": "https://openalex.org/W4397174327"
     }
   ]
 }
